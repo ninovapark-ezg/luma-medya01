@@ -1,0 +1,3152 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Luma Medya — Markanızı Dijitalde Büyütüyoruz</title>
+<meta name="description" content="Luma Medya; sosyal medya yönetimi, reklam yönetimi, web tasarım ve yaratıcı içerik çözümleriyle markanızı dijital dünyada büyüten İstanbul merkezli dijital pazarlama ajansı.">
+<meta name="keywords" content="dijital pazarlama ajansı, sosyal medya yönetimi, google ads, web tasarım, marka kimliği, luma medya">
+<meta name="author" content="Luma Medya">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://www.lumamedya.com/">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Luma Medya">
+<meta property="og:title" content="Luma Medya — Markanızı Dijitalde Büyütüyoruz">
+<meta property="og:description" content="Sosyal medya, reklam yönetimi, web tasarım ve yaratıcı içerik çözümleriyle markanızı dijitalde büyütüyoruz.">
+<meta property="og:locale" content="tr_TR">
+<meta property="og:url" content="https://www.lumamedya.com/">
+<meta property="og:image" content="https://www.lumamedya.com/images/work-logo.jpg">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Luma Medya — Markanızı Dijitalde Büyütüyoruz">
+<meta name="twitter:description" content="Sosyal medya, reklam yönetimi, web tasarım ve yaratıcı içerik çözümleriyle markanızı dijitalde büyütüyoruz.">
+<meta name="twitter:image" content="https://www.lumamedya.com/images/work-logo.jpg">
+
+<!-- Favicon (inline SVG spark mark) -->
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23111C4E'/%3E%3Cpath d='M32 10 L38 28 L56 32 L38 36 L32 54 L26 36 L8 32 L26 28 Z' fill='%232248FF'/%3E%3C/svg%3E">
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700,900&f[]=general-sans@400,500,600&display=swap">
+
+<!-- Schema.org -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MarketingAgency",
+  "name": "Luma Medya",
+  "description": "Sosyal medya yönetimi, reklam yönetimi, web tasarım ve yaratıcı içerik çözümleri sunan dijital pazarlama ajansı.",
+  "url": "https://www.lumamedya.com/",
+  "areaServed": "TR",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "İstanbul",
+    "addressCountry": "TR"
+  },
+  "sameAs": [
+    "https://www.instagram.com/lumamedya",
+    "https://wa.me/902120000000"
+  ]
+}
+</script>
+
+<style>
+/* ============================================================
+   0. RESET & BASE
+============================================================ */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: auto; }
+html.lenis, html.lenis body { height: auto; }
+.lenis.lenis-smooth { scroll-behavior: auto !important; }
+.lenis.lenis-stopped { overflow: hidden; }
+
+:root{
+  /* --- Brand colors --- */
+  --navy: #111C4E;
+  --navy-deep: #0A1233;
+  --navy-950: #070B1F;
+  --blue: #2248FF;
+  --blue-light: #5C7DFF;
+  --purple: #7C5CFF;
+  --white: #FFFFFF;
+  --off-white: #F6F7FB;
+  --paper: #FBFBFD;
+  --ink: #0D1333;
+  --muted: #5B6280;
+  --muted-2: #8A90AC;
+  --line: rgba(17,28,78,0.10);
+  --line-strong: rgba(17,28,78,0.16);
+
+  /* --- Glass / dark surfaces --- */
+  --glass-bg: rgba(255,255,255,0.06);
+  --glass-bg-strong: rgba(255,255,255,0.10);
+  --glass-border: rgba(255,255,255,0.14);
+  --navy-glass: rgba(10,18,51,0.62);
+
+  /* --- Gradients --- */
+  --grad-primary: linear-gradient(135deg, var(--blue) 0%, var(--purple) 100%);
+  --grad-primary-h: linear-gradient(135deg, var(--purple) 0%, var(--blue) 100%);
+  --grad-text: linear-gradient(120deg, #ffffff 0%, #b9c6ff 55%, #7c9bff 100%);
+  --grad-mesh: radial-gradient(circle at 15% 20%, rgba(34,72,255,0.55), transparent 42%),
+               radial-gradient(circle at 85% 15%, rgba(124,92,255,0.45), transparent 45%),
+               radial-gradient(circle at 50% 90%, rgba(34,72,255,0.35), transparent 50%);
+
+  /* --- Type --- */
+  --font-display: 'Satoshi', 'General Sans', 'Inter', sans-serif;
+  --font-body: 'Inter', sans-serif;
+  --font-label: 'Space Grotesk', 'Inter', sans-serif;
+
+  /* --- Motion --- */
+  --ease: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-soft: cubic-bezier(0.22, 1, 0.36, 1);
+  --dur: 0.6s;
+
+  /* --- Layout --- */
+  --container: 1240px;
+  --radius-sm: 12px;
+  --radius-md: 20px;
+  --radius-lg: 28px;
+  --radius-xl: 40px;
+
+  --nav-h: 84px;
+}
+
+html{ font-size: 16px; }
+body{
+  font-family: var(--font-body);
+  background: var(--paper);
+  color: var(--ink);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+body.is-loading{ overflow: hidden; height: 100vh; }
+
+img{ max-width: 100%; display: block; }
+a{ color: inherit; text-decoration: none; }
+button{ font-family: inherit; cursor: pointer; border: none; background: none; color: inherit; }
+ul{ list-style: none; }
+svg{ display: block; }
+input, textarea, select{ font-family: inherit; font-size: inherit; color: inherit; }
+
+::selection{ background: var(--blue); color: #fff; }
+
+.container{
+  width: 100%;
+  max-width: var(--container);
+  margin-inline: auto;
+  padding-inline: 32px;
+}
+
+section{ position: relative; }
+
+/* Eyebrow / label */
+.eyebrow{
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--font-label);
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--blue);
+}
+.eyebrow::before{
+  content: '';
+  width: 7px; height: 7px;
+  border-radius: 50%;
+  background: var(--grad-primary);
+  box-shadow: 0 0 0 4px rgba(34,72,255,0.14);
+}
+.eyebrow--light{ color: #AFC0FF; }
+.eyebrow--light::before{ box-shadow: 0 0 0 4px rgba(124,155,255,0.2); }
+
+.section-head{
+  max-width: 640px;
+  margin-bottom: 64px;
+}
+.section-head.center{ margin-inline: auto; text-align: center; }
+.section-head h2{
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: clamp(2rem, 3.4vw, 3rem);
+  line-height: 1.12;
+  letter-spacing: -0.02em;
+  margin-top: 14px;
+  color: var(--navy);
+}
+.section-head p{
+  margin-top: 18px;
+  color: var(--muted);
+  font-size: 1.05rem;
+  line-height: 1.65;
+}
+.on-dark .section-head h2{ color: #fff; }
+.on-dark .section-head p{ color: #A6ACC9; }
+
+/* Gradient text util */
+.text-grad{
+  background: var(--grad-primary);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* Buttons */
+.btn{
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-family: var(--font-label);
+  font-weight: 600;
+  font-size: 0.98rem;
+  padding: 17px 30px;
+  border-radius: 100px;
+  white-space: nowrap;
+  isolation: isolate;
+  overflow: hidden;
+}
+.btn svg{ width: 18px; height: 18px; flex-shrink: 0; transition: transform 0.4s var(--ease); }
+.btn:hover svg{ transform: translate(3px,-3px); }
+
+.btn--primary{
+  background: var(--grad-primary);
+  color: #fff;
+  box-shadow: 0 12px 28px -8px rgba(34,72,255,0.55);
+}
+.btn--primary::before{
+  content:'';
+  position:absolute; inset:0;
+  background: var(--grad-primary-h);
+  opacity: 0;
+  transition: opacity 0.4s var(--ease);
+  z-index: -1;
+}
+.btn--primary:hover::before{ opacity: 1; }
+
+.btn--ghost-dark{
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.22);
+  color: #fff;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+.btn--ghost-dark:hover{ background: rgba(255,255,255,0.14); border-color: rgba(255,255,255,0.4); }
+
+.btn--ghost-light{
+  background: #fff;
+  border: 1px solid var(--line-strong);
+  color: var(--navy);
+}
+.btn--ghost-light:hover{ border-color: var(--blue); color: var(--blue); }
+
+.btn--sm{ padding: 12px 22px; font-size: 0.88rem; }
+
+.btn--wa{ background:#1FAA59; color:#fff; box-shadow: 0 12px 28px -10px rgba(31,170,89,0.55); }
+.btn--wa::before{ background:#18913F; }
+
+/* Glass card base */
+.glass{
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+}
+
+/* Focus visibility (accessibility floor) */
+a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visible, select:focus-visible{
+  outline: 2px solid var(--blue);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce){
+  *, *::before, *::after{
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* ============================================================
+   1. AMBIENT LAYER — noise, progress bar, glow follower
+============================================================ */
+.noise-overlay{
+  position: fixed; inset: 0;
+  z-index: 9990;
+  pointer-events: none;
+  opacity: 0.035;
+  mix-blend-mode: overlay;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+.scroll-progress{
+  position: fixed;
+  top: 0; left: 0;
+  height: 3px;
+  width: 0%;
+  background: var(--grad-primary);
+  z-index: 9999;
+  transition: width 0.1s linear;
+}
+
+.glow-follower{
+  position: fixed;
+  top: 0; left: 0;
+  width: 620px; height: 620px;
+  margin-left: -310px; margin-top: -310px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(34,72,255,0.4) 0%, rgba(124,92,255,0.22) 45%, transparent 70%);
+  pointer-events: none;
+  z-index: 1;
+  filter: blur(10px);
+  opacity: 0;
+  mix-blend-mode: screen;
+  transition: opacity 0.6s ease;
+  will-change: transform;
+}
+.glow-follower.is-active{ opacity: 1; }
+
+/* Custom cursor */
+.cursor-dot, .cursor-ring{
+  position: fixed;
+  top: 0; left: 0;
+  pointer-events: none;
+  z-index: 9998;
+  border-radius: 50%;
+  transform: translate(-50%,-50%);
+  will-change: transform;
+}
+.cursor-dot{
+  width: 8px; height: 8px;
+  background: var(--blue);
+  transition: opacity 0.2s ease, background 0.3s ease;
+}
+.cursor-ring{
+  width: 42px; height: 42px;
+  border: 1.5px solid rgba(34,72,255,0.55);
+  transition: width 0.35s var(--ease), height 0.35s var(--ease), opacity 0.2s ease, border-color 0.3s ease, background 0.3s ease, transform 0.18s ease-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cursor-dot{ transition: opacity 0.2s ease, background 0.3s ease, transform 0.05s linear; }
+.cursor-ring span{
+  opacity: 0;
+  font-family: var(--font-label);
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: #fff;
+  transform: scale(0.6);
+  transition: opacity 0.25s ease, transform 0.25s ease;
+  white-space: nowrap;
+}
+.cursor-ring.is-view{ width: 96px; height: 96px; background: var(--navy); border-color: transparent; }
+.cursor-ring.is-view span{ opacity: 1; transform: scale(1); }
+.cursor-ring.is-link{ width: 60px; height: 60px; background: rgba(34,72,255,0.1); border-color: rgba(34,72,255,0.35); }
+.cursor-ring.is-hidden, .cursor-dot.is-hidden{ opacity: 0; }
+
+@media (pointer: coarse), (hover: none){
+  .cursor-dot, .cursor-ring, .glow-follower{ display: none !important; }
+}
+
+/* ============================================================
+   2. LOADER
+============================================================ */
+.loader{
+  position: fixed; inset: 0;
+  z-index: 10000;
+  background: var(--navy-deep);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.loader::before{
+  content:'';
+  position: absolute; inset: -20%;
+  background: var(--grad-mesh);
+  filter: blur(60px);
+  opacity: 0.7;
+}
+.loader__mark{
+  position: relative;
+  font-family: var(--font-display);
+  font-weight: 900;
+  font-size: clamp(2.6rem, 8vw, 5.5rem);
+  letter-spacing: -0.02em;
+  color: #fff;
+  display: flex;
+}
+.loader__mark span{
+  display: inline-block;
+  opacity: 0;
+  filter: blur(14px);
+  transform: translateY(24px);
+  text-shadow: 0 0 40px rgba(92,125,255,0.8);
+}
+.loader__bar-wrap{
+  position: relative;
+  margin-top: 34px;
+  width: 220px;
+  height: 2px;
+  background: rgba(255,255,255,0.14);
+  border-radius: 2px;
+  overflow: hidden;
+}
+.loader__bar{
+  position: absolute; inset: 0 100% 0 0;
+  background: var(--grad-primary);
+}
+.loader__pct{
+  position: relative;
+  margin-top: 18px;
+  font-family: var(--font-label);
+  font-size: 0.82rem;
+  letter-spacing: 0.08em;
+  color: #8291D6;
+}
+.loader.is-done{
+  animation: loaderOut 0.9s var(--ease) forwards;
+  pointer-events: none;
+}
+@keyframes loaderOut{
+  0%{ opacity: 1; }
+  100%{ opacity: 0; visibility: hidden; }
+}
+
+/* ============================================================
+   3. NAVIGATION
+============================================================ */
+.nav{
+  position: fixed;
+  top: 18px; left: 0; right: 0;
+  z-index: 900;
+  display: flex;
+  justify-content: center;
+  padding-inline: 20px;
+}
+.nav__inner{
+  width: 100%;
+  max-width: 1160px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 12px 14px 12px 22px;
+  border-radius: 100px;
+  background: rgba(10,18,51,0.38);
+  border: 1px solid rgba(255,255,255,0.08);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  transition: background 0.5s var(--ease), border-color 0.5s var(--ease), box-shadow 0.5s var(--ease), padding 0.4s var(--ease);
+}
+.nav.is-scrolled .nav__inner{
+  background: var(--navy-glass);
+  border-color: rgba(255,255,255,0.12);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  box-shadow: 0 16px 40px -16px rgba(7,11,31,0.5);
+  padding: 9px 10px 9px 22px;
+}
+.nav__logo{
+  display: flex;
+  align-items: baseline;
+  gap: 5px;
+  font-family: var(--font-display);
+  font-weight: 900;
+  font-size: 1.15rem;
+  color: #fff;
+  letter-spacing: -0.01em;
+  flex-shrink: 0;
+}
+.nav__logo em{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
+  color: var(--blue-light);
+}
+.nav__links{
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.nav__links a{
+  position: relative;
+  padding: 9px 15px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #C7CCE8;
+  border-radius: 100px;
+  transition: color 0.3s ease, background 0.3s ease;
+}
+.nav__links a:hover{ color: #fff; background: rgba(255,255,255,0.08); }
+.nav__right{ display: flex; align-items: center; gap: 10px; flex-shrink: 0; }
+.nav__burger{
+  display: none;
+  width: 40px; height: 40px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255,255,255,0.08);
+  flex-shrink: 0;
+}
+.nav__burger span, .nav__burger::before, .nav__burger::after{ content:''; }
+.nav__burger-icon{ position: relative; width: 16px; height: 10px; }
+.nav__burger-icon span{
+  position: absolute; left: 0; right: 0; height: 1.5px; background: #fff; border-radius: 2px;
+  transition: transform 0.35s var(--ease), opacity 0.3s ease, top 0.35s var(--ease);
+}
+.nav__burger-icon span:nth-child(1){ top: 0; }
+.nav__burger-icon span:nth-child(2){ top: 4.5px; }
+.nav__burger-icon span:nth-child(3){ top: 9px; }
+.nav.menu-open .nav__burger-icon span:nth-child(1){ top: 4.5px; transform: rotate(45deg); }
+.nav.menu-open .nav__burger-icon span:nth-child(2){ opacity: 0; }
+.nav.menu-open .nav__burger-icon span:nth-child(3){ top: 4.5px; transform: rotate(-45deg); }
+
+.mobile-menu{
+  position: fixed; inset: 0;
+  z-index: 850;
+  background: var(--navy-deep);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-16px);
+  transition: opacity 0.45s var(--ease), transform 0.45s var(--ease), visibility 0.45s;
+}
+.mobile-menu.is-open{ opacity: 1; visibility: visible; transform: translateY(0); }
+.mobile-menu a{
+  font-family: var(--font-display);
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #fff;
+  padding: 12px;
+}
+.mobile-menu .btn{ margin-top: 20px; }
+
+/* ============================================================
+   4. HERO
+============================================================ */
+.hero{
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background: var(--navy-deep);
+  padding-top: 140px;
+  padding-bottom: 80px;
+}
+.hero__bg{
+  position: absolute; inset: 0;
+  background:
+    radial-gradient(circle at 20% 25%, rgba(34,72,255,0.5), transparent 40%),
+    radial-gradient(circle at 82% 12%, rgba(124,92,255,0.45), transparent 42%),
+    radial-gradient(circle at 55% 100%, rgba(34,72,255,0.35), transparent 48%),
+    var(--navy-deep);
+  animation: meshShift 16s ease-in-out infinite alternate;
+}
+@keyframes meshShift{
+  0%{ filter: hue-rotate(0deg) brightness(1); }
+  100%{ filter: hue-rotate(14deg) brightness(1.08); }
+}
+.hero__grid{
+  position: absolute; inset: 0;
+  background-image:
+    linear-gradient(rgba(255,255,255,0.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.035) 1px, transparent 1px);
+  background-size: 64px 64px;
+  mask-image: radial-gradient(ellipse 70% 60% at 50% 40%, black 20%, transparent 80%);
+}
+.hero__orb{
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(4px);
+  opacity: 0.85;
+  will-change: transform;
+}
+.hero__orb--1{ width: 340px; height: 340px; left: 6%; top: 18%; background: radial-gradient(circle at 35% 30%, rgba(92,125,255,0.9), rgba(92,125,255,0) 70%); animation: orbFloat 9s ease-in-out infinite; }
+.hero__orb--2{ width: 220px; height: 220px; right: 10%; top: 30%; background: radial-gradient(circle at 35% 30%, rgba(124,92,255,0.85), rgba(124,92,255,0) 70%); animation: orbFloat 11s ease-in-out infinite reverse; }
+.hero__orb--3{ width: 160px; height: 160px; right: 22%; bottom: 14%; background: radial-gradient(circle at 35% 30%, rgba(34,72,255,0.9), rgba(34,72,255,0) 70%); animation: orbFloat 7.5s ease-in-out infinite; }
+@keyframes orbFloat{
+  0%,100%{ transform: translate(0,0) scale(1); }
+  50%{ transform: translate(18px,-26px) scale(1.08); }
+}
+.hero__shape{
+  position: absolute;
+  border: 1px solid rgba(255,255,255,0.14);
+  border-radius: 28px;
+  backdrop-filter: blur(2px);
+  will-change: transform;
+}
+.hero__shape--1{ width: 120px; height: 120px; left: 12%; bottom: 20%; transform: rotate(18deg); animation: shapeSpin 22s linear infinite; }
+.hero__shape--2{ width: 70px; height: 70px; right: 14%; top: 22%; border-radius: 50%; animation: shapeSpin 16s linear infinite reverse; }
+@keyframes shapeSpin{
+  0%{ transform: rotate(0deg); }
+  100%{ transform: rotate(360deg); }
+}
+
+.hero__content{
+  position: relative;
+  z-index: 5;
+  max-width: 1000px;
+  margin-inline: auto;
+  padding-inline: 24px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hero__badge{
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  padding: 8px 18px 8px 8px;
+  border-radius: 100px;
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.16);
+  font-family: var(--font-label);
+  font-size: 0.82rem;
+  font-weight: 500;
+  color: #D7DCFA;
+  opacity: 0;
+}
+.hero__badge b{
+  display: flex; align-items:center; justify-content:center;
+  width: 22px; height: 22px;
+  border-radius: 50%;
+  background: var(--grad-primary);
+  font-size: 0.7rem;
+}
+.hero__title{
+  margin-top: 30px;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: clamp(2.6rem, 6.4vw, 5.6rem);
+  line-height: 1.06;
+  letter-spacing: -0.03em;
+  color: #fff;
+}
+.hero__title .word{ display: inline-block; overflow: hidden; padding-bottom: 0.08em; margin-bottom: -0.08em; vertical-align: top; }
+.hero__title .char{ display: inline-block; opacity: 0; filter: blur(10px); transform: translateY(60%) rotate(4deg); }
+.hero__title .accent{ background: var(--grad-text); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.hero__sub{
+  margin-top: 28px;
+  max-width: 620px;
+  font-size: clamp(1rem, 1.4vw, 1.2rem);
+  line-height: 1.65;
+  color: #A6ACC9;
+  opacity: 0;
+  transform: translateY(20px);
+}
+.hero__actions{
+  margin-top: 42px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  justify-content: center;
+  opacity: 0;
+  transform: translateY(20px);
+}
+.hero__proof{
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  opacity: 0;
+}
+.hero__proof .avatars{ display: flex; }
+.hero__proof .avatars span{
+  width: 34px; height: 34px;
+  border-radius: 50%;
+  border: 2px solid var(--navy-deep);
+  margin-left: -10px;
+  background: var(--grad-primary);
+  display: flex; align-items: center; justify-content: center;
+  font-family: var(--font-label); font-size: 0.68rem; font-weight: 700; color: #fff;
+}
+.hero__proof .avatars span:first-child{ margin-left: 0; }
+.hero__proof .proof-text{ text-align: left; font-size: 0.85rem; color: #9AA1C6; line-height: 1.4; }
+.hero__proof .proof-text b{ color: #fff; font-family: var(--font-label); }
+.hero__proof .stars{ color: #FFC53D; letter-spacing: 2px; font-size: 0.8rem; }
+
+.hero__scroll{
+  position: absolute;
+  bottom: 34px; left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  z-index: 5;
+  opacity: 0;
+}
+.hero__scroll span{
+  font-family: var(--font-label);
+  font-size: 0.68rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #7C84AD;
+}
+.hero__scroll .mouse{
+  width: 22px; height: 34px;
+  border: 1.5px solid rgba(255,255,255,0.3);
+  border-radius: 12px;
+  position: relative;
+}
+.hero__scroll .mouse::before{
+  content: '';
+  position: absolute;
+  top: 6px; left: 50%;
+  width: 3px; height: 6px;
+  margin-left: -1.5px;
+  border-radius: 2px;
+  background: var(--blue-light);
+  animation: scrollDot 1.8s ease infinite;
+}
+@keyframes scrollDot{
+  0%{ opacity: 1; transform: translateY(0); }
+  70%{ opacity: 0; transform: translateY(10px); }
+  100%{ opacity: 0; transform: translateY(0); }
+}
+
+/* ============================================================
+   5. MARQUEE (trusted brands)
+============================================================ */
+.marquee-section{
+  background: var(--paper);
+  padding: 70px 0;
+  border-bottom: 1px solid var(--line);
+}
+.marquee-section .eyebrow{ display:flex; justify-content:center; margin-bottom: 34px; }
+.marquee{
+  width: 100%;
+  overflow: hidden;
+  mask-image: linear-gradient(90deg, transparent, black 12%, black 88%, transparent);
+  -webkit-mask-image: linear-gradient(90deg, transparent, black 12%, black 88%, transparent);
+}
+.marquee__track{
+  display: flex;
+  align-items: center;
+  gap: 72px;
+  width: max-content;
+  animation: marqueeScroll 34s linear infinite;
+}
+.marquee:hover .marquee__track{ animation-play-state: paused; }
+@keyframes marqueeScroll{
+  0%{ transform: translateX(0); }
+  100%{ transform: translateX(-50%); }
+}
+.marquee__logo{
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.5rem;
+  letter-spacing: -0.01em;
+  color: var(--navy);
+  opacity: 0.32;
+  filter: grayscale(1);
+  transition: opacity 0.4s ease, filter 0.4s ease, transform 0.4s ease;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.marquee__logo:hover{ opacity: 1; filter: grayscale(0); transform: translateY(-2px); }
+.marquee__logo i{ width: 7px; height: 7px; border-radius: 50%; background: var(--grad-primary); opacity: 0.8;}
+
+.marquee-feature{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.marquee-feature img{
+  width: 100%;
+  max-width: 380px;
+  border-radius: var(--radius-lg);
+  box-shadow: 0 40px 80px -30px rgba(17,28,78,0.35);
+  border: 1px solid var(--line);
+}
+
+/* ============================================================
+   6. ABOUT
+============================================================ */
+.about{
+  padding: 150px 0;
+  background: var(--off-white);
+  overflow: hidden;
+}
+.about__grid{
+  display: grid;
+  grid-template-columns: 0.95fr 1.05fr;
+  gap: 90px;
+  align-items: center;
+}
+.about__visual{
+  position: relative;
+  height: 560px;
+}
+.about__panel{
+  position: absolute;
+  inset: 0;
+  border-radius: var(--radius-xl);
+  background: linear-gradient(155deg, var(--navy) 0%, var(--navy-deep) 60%, var(--navy-950) 100%);
+  overflow: hidden;
+  box-shadow: 0 40px 80px -30px rgba(17,28,78,0.4);
+}
+.about__panel::before{
+  content:'';
+  position: absolute; inset: 0;
+  background: var(--grad-mesh);
+  opacity: 0.8;
+}
+.about__panel-grid{
+  position: absolute; inset: 0;
+  background-image: linear-gradient(rgba(255,255,255,0.05) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.05) 1px, transparent 1px);
+  background-size: 40px 40px;
+  mask-image: radial-gradient(ellipse 80% 80% at 50% 50%, black 10%, transparent 75%);
+}
+.about__panel-img{
+  position: absolute; inset: 0;
+  width: 100%; height: 100%;
+  object-fit: cover;
+  object-position: center 20%;
+  transition: transform 8s var(--ease-soft);
+}
+.about__visual:hover .about__panel-img{ transform: scale(1.06); }
+.about__panel-shade{
+  position: absolute; inset: 0;
+  background: linear-gradient(190deg, rgba(7,11,31,0.05) 30%, rgba(7,11,31,0.65) 100%);
+}
+.float-card{
+  position: absolute;
+  border-radius: var(--radius-md);
+  padding: 18px 20px;
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.16);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  box-shadow: 0 24px 50px -20px rgba(0,0,0,0.5);
+  will-change: transform;
+}
+.float-card--growth{ top: 12%; left: 8%; width: 190px; }
+.float-card--growth .fc-label{ font-family: var(--font-label); font-size: 0.72rem; color: #A6ACC9; }
+.float-card--growth .fc-value{ font-family: var(--font-display); font-size: 1.7rem; font-weight: 700; color: #fff; margin-top: 4px; display:flex; align-items:center; gap:6px;}
+.float-card--growth .fc-value svg{ width: 16px; height:16px; color:#3DDC97; }
+.float-card--bars{ bottom: 14%; left: 12%; width: 150px; }
+.float-card--bars .bars{ display: flex; align-items: flex-end; gap: 6px; height: 46px; }
+.float-card--bars .bars i{ flex:1; border-radius: 4px 4px 0 0; background: var(--grad-primary); opacity: 0.85; }
+.float-card--chat{ top: 40%; right: 6%; width: 180px; }
+.float-card--chat .chat-row{ display:flex; align-items:center; gap:8px; }
+.float-card--chat .chat-avatar{ width:26px; height:26px; border-radius:50%; background: var(--grad-primary); flex-shrink:0; }
+.float-card--chat .chat-line{ height:7px; border-radius: 4px; background: rgba(255,255,255,0.18); }
+.float-card--chat .chat-line + .chat-line{ margin-top: 6px; }
+.float-card--rate{ bottom: 10%; right: 10%; display:flex; align-items:center; gap:10px; padding: 12px 16px; }
+.float-card--rate svg{ width: 22px; height:22px; color:#FFC53D; }
+.float-card--rate b{ font-family: var(--font-display); color:#fff; font-size:1rem; }
+
+.about__text .section-head{ margin-bottom: 30px; max-width: 100%; }
+.about__lead{ color: var(--muted); font-size: 1.08rem; line-height: 1.75; margin-bottom: 20px; }
+.about__stats{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin-top: 44px;
+  padding-top: 40px;
+  border-top: 1px solid var(--line-strong);
+}
+.stat .stat__num{
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: clamp(2rem, 3vw, 2.6rem);
+  color: var(--navy);
+  display: flex;
+  align-items: baseline;
+  gap: 2px;
+}
+.stat .stat__num .text-grad{ font-weight: 700; }
+.stat .stat__label{
+  margin-top: 6px;
+  font-size: 0.88rem;
+  color: var(--muted);
+  font-weight: 500;
+}
+.about__cta{ margin-top: 40px; }
+
+@media (max-width: 1024px){
+  .about__grid{ grid-template-columns: 1fr; gap: 60px; }
+  .about__visual{ height: 440px; }
+}
+
+/* ============================================================
+   7. SERVICES
+============================================================ */
+.services{ padding: 150px 0; background: var(--paper); }
+.services__grid{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+.service-card{
+  position: relative;
+  padding: 30px 26px;
+  border-radius: var(--radius-md);
+  background: #fff;
+  border: 1px solid var(--line);
+  transition: transform 0.5s var(--ease), box-shadow 0.5s var(--ease), border-color 0.5s var(--ease);
+  overflow: hidden;
+}
+.service-card::before{
+  content:'';
+  position: absolute; inset: 0;
+  background: var(--grad-primary);
+  opacity: 0;
+  transition: opacity 0.5s var(--ease);
+  z-index: 0;
+}
+.service-card > *{ position: relative; z-index: 1; }
+.service-card__icon{
+  width: 50px; height: 50px;
+  border-radius: 14px;
+  display: flex; align-items: center; justify-content: center;
+  background: linear-gradient(135deg, rgba(34,72,255,0.1), rgba(124,92,255,0.1));
+  color: var(--blue);
+  transition: transform 0.5s var(--ease), background 0.5s ease, color 0.5s ease;
+}
+.service-card__icon svg{ width: 24px; height: 24px; }
+.service-card__num{
+  position: absolute; top: 26px; right: 26px;
+  font-family: var(--font-label);
+  font-size: 0.75rem;
+  color: var(--muted-2);
+  transition: color 0.5s ease;
+}
+.service-card h3{
+  margin-top: 20px;
+  font-family: var(--font-display);
+  font-size: 1.08rem;
+  font-weight: 700;
+  color: var(--navy);
+  transition: color 0.5s ease;
+}
+.service-card p{
+  margin-top: 10px;
+  font-size: 0.87rem;
+  line-height: 1.55;
+  color: var(--muted);
+  opacity: 0.75;
+  transition: opacity 0.5s ease, color 0.5s ease;
+}
+.service-card__arrow{
+  margin-top: 18px;
+  width: 30px; height: 30px;
+  border-radius: 50%;
+  border: 1px solid var(--line-strong);
+  display: flex; align-items: center; justify-content: center;
+  color: var(--navy);
+  transform: translateX(0);
+  transition: transform 0.5s var(--ease), background 0.5s ease, border-color 0.5s ease, color 0.5s ease;
+}
+.service-card__arrow svg{ width: 14px; height: 14px; }
+
+.service-card:hover{ transform: translateY(-8px); box-shadow: 0 30px 60px -24px rgba(17,28,78,0.28); border-color: transparent; }
+.service-card:hover::before{ opacity: 1; }
+.service-card:hover .service-card__icon{ background: rgba(255,255,255,0.16); color: #fff; transform: rotate(-8deg) scale(1.08); }
+.service-card:hover h3{ color: #fff; }
+.service-card:hover p{ color: #E4E7FA; opacity: 0.92; }
+.service-card:hover .service-card__num{ color: rgba(255,255,255,0.5); }
+.service-card:hover .service-card__arrow{ background: #fff; border-color: #fff; color: var(--blue); transform: translateX(4px) rotate(45deg); }
+
+@media (max-width: 1100px){ .services__grid{ grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 560px){ .services__grid{ grid-template-columns: 1fr; } }
+
+/* ============================================================
+   8. PROCESS
+============================================================ */
+.process{ padding: 150px 0; background: var(--navy-deep); position: relative; overflow: hidden; }
+.process::before{
+  content:'';
+  position: absolute; inset: 0;
+  background: var(--grad-mesh);
+  opacity: 0.5;
+}
+.process .container{ position: relative; }
+.process__row{
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 4px;
+  position: relative;
+  margin-top: 30px;
+}
+.process__spine{
+  position: absolute;
+  top: 21px; left: 0; right: 0;
+  height: 2px;
+  background: rgba(255,255,255,0.1);
+}
+.process__spine-fill{
+  position: absolute; inset: 0;
+  width: 0%;
+  background: var(--grad-primary);
+  box-shadow: 0 0 16px rgba(92,125,255,0.8);
+}
+.process-step{
+  position: relative;
+  padding-top: 60px;
+  padding-right: 18px;
+}
+.process-step__dot{
+  position: absolute;
+  top: 12px; left: 0;
+  width: 20px; height: 20px;
+  border-radius: 50%;
+  background: var(--navy-deep);
+  border: 2px solid rgba(255,255,255,0.25);
+  display: flex; align-items: center; justify-content: center;
+  transition: border-color 0.5s ease, background 0.5s ease, transform 0.5s var(--ease);
+}
+.process-step__dot::after{
+  content:'';
+  width: 7px; height: 7px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.3);
+  transition: background 0.5s ease;
+}
+.process-step.is-active .process-step__dot{ border-color: var(--blue-light); background: var(--navy); transform: scale(1.2); }
+.process-step.is-active .process-step__dot::after{ background: var(--blue-light); box-shadow: 0 0 10px var(--blue-light); }
+.process-step__num{
+  font-family: var(--font-label);
+  font-size: 0.78rem;
+  color: #6B73A0;
+  letter-spacing: 0.05em;
+}
+.process-step.is-active .process-step__num{ color: var(--blue-light); }
+.process-step h3{
+  margin-top: 12px;
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #fff;
+}
+.process-step p{
+  margin-top: 10px;
+  font-size: 0.85rem;
+  line-height: 1.55;
+  color: #8991B8;
+}
+@media (max-width: 900px){
+  .process__row{
+    grid-template-columns: none;
+    grid-auto-flow: column;
+    grid-auto-columns: 76%;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    padding-bottom: 20px;
+    gap: 20px;
+  }
+  .process-step{ scroll-snap-align: start; padding-right: 0; }
+  .process__spine{ display: none; }
+}
+
+/* ============================================================
+   9. PORTFOLIO
+============================================================ */
+.work{ padding: 150px 0; background: var(--paper); }
+.work__head-row{
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+.work__filters{
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.work__filters button{
+  padding: 10px 20px;
+  border-radius: 100px;
+  font-family: var(--font-label);
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--muted);
+  border: 1px solid var(--line-strong);
+  transition: all 0.35s var(--ease);
+}
+.work__filters button.is-active, .work__filters button:hover{
+  background: var(--navy);
+  border-color: var(--navy);
+  color: #fff;
+}
+.work__grid{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 190px;
+  gap: 20px;
+}
+.work-item{
+  position: relative;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  cursor: none;
+  grid-column: span 2;
+  grid-row: span 1;
+}
+.work-item[data-size="tall"]{ grid-row: span 2; }
+.work-item[data-size="wide"]{ grid-column: span 2; }
+.work-item[data-size="small"]{ grid-column: span 1; }
+.work-item__bg{
+  position: absolute; inset: 0;
+  transition: transform 0.7s var(--ease);
+}
+.work-item__bg img{
+  width: 100%; height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.work-item__pattern{ position: absolute; inset: 0; opacity: 0.5; mix-blend-mode: overlay;
+  background-image: radial-gradient(circle at 20% 20%, rgba(255,255,255,0.5), transparent 30%), radial-gradient(circle at 80% 70%, rgba(255,255,255,0.35), transparent 35%);
+}
+.work-item:hover .work-item__bg{ transform: scale(1.08) rotate(1deg); }
+.work-item__overlay{
+  position: absolute; inset: 0;
+  background: linear-gradient(0deg, rgba(7,11,31,0.86) 0%, rgba(7,11,31,0.1) 55%, transparent 75%);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 22px;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+.work-item:hover .work-item__overlay{ opacity: 1; }
+.work-item__cat{
+  font-family: var(--font-label);
+  font-size: 0.72rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--blue-light);
+  transform: translateY(8px);
+  opacity: 0;
+  transition: transform 0.5s var(--ease) 0.05s, opacity 0.5s ease 0.05s;
+}
+.work-item__title{
+  margin-top: 6px;
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #fff;
+  transform: translateY(8px);
+  opacity: 0;
+  transition: transform 0.5s var(--ease) 0.1s, opacity 0.5s ease 0.1s;
+}
+.work-item:hover .work-item__cat, .work-item:hover .work-item__title{ transform: translateY(0); opacity: 1; }
+.work-item.is-hidden-filter{ display: none; }
+
+@media (max-width: 1024px){
+  .work__grid{ grid-template-columns: repeat(2, 1fr); }
+  .work-item{ grid-column: span 1 !important; grid-row: span 1 !important; }
+}
+@media (max-width: 560px){ .work__grid{ grid-template-columns: 1fr; } }
+
+/* Portfolio modal */
+.work-modal{
+  position: fixed; inset: 0;
+  z-index: 9500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  background: rgba(7,11,31,0.82);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.4s ease, visibility 0.4s;
+}
+.work-modal.is-open{ opacity: 1; visibility: visible; }
+.work-modal__panel{
+  position: relative;
+  width: 100%;
+  max-width: 880px;
+  max-height: 85vh;
+  overflow: auto;
+  border-radius: var(--radius-lg);
+  background: var(--navy-deep);
+  border: 1px solid rgba(255,255,255,0.1);
+  transform: scale(0.94) translateY(20px);
+  transition: transform 0.5s var(--ease);
+}
+.work-modal.is-open .work-modal__panel{ transform: scale(1) translateY(0); }
+.work-modal__visual{ height: 320px; position: relative; background-size: cover; background-position: center; }
+.work-modal__body{ padding: 36px 40px 44px; }
+.work-modal__body .work-item__cat{ opacity: 1; transform: none; position: static; }
+.work-modal__body h3{ margin-top: 10px; font-family: var(--font-display); font-size: 1.8rem; color: #fff; font-weight: 700; }
+.work-modal__body p{ margin-top: 16px; color: #A6ACC9; line-height: 1.7; }
+.work-modal__tags{ display: flex; gap: 10px; margin-top: 24px; flex-wrap: wrap; }
+.work-modal__tags span{ padding: 7px 14px; border-radius: 100px; border: 1px solid rgba(255,255,255,0.16); font-size: 0.78rem; color: #C7CCE8; font-family: var(--font-label); }
+.work-modal__close{
+  position: absolute; top: 20px; right: 20px;
+  width: 42px; height: 42px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.1);
+  border: 1px solid rgba(255,255,255,0.16);
+  display: flex; align-items: center; justify-content: center;
+  color: #fff;
+  z-index: 5;
+}
+.work-modal__close svg{ width: 18px; height: 18px; }
+
+/* ============================================================
+   10. BEFORE / AFTER SLIDER
+============================================================ */
+.compare{ padding: 0 0 150px; background: var(--paper); }
+.compare__box{
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16/8.4;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: 0 40px 90px -30px rgba(17,28,78,0.35);
+  border: 1px solid var(--line);
+  user-select: none;
+  touch-action: pan-y;
+}
+.compare__panel{ position: absolute; inset: 0; }
+.compare__panel--after{ clip-path: inset(0 0 0 50%); }
+.compare-mock{
+  position: absolute; inset: 0;
+  display: flex; flex-direction: column;
+}
+.compare-mock__nav{ height: 13%; display: flex; align-items: center; padding: 0 5%; gap: 8px; }
+.compare-mock__nav i{ width: 10px; height: 10px; border-radius: 50%; }
+.compare-mock__body{ flex: 1; display: flex; gap: 3%; padding: 0 5% 5%; }
+.compare__panel--before .compare-mock{ background: #EDEFF5; }
+.compare__panel--before .compare-mock__nav{ background: #DDE0EC; }
+.compare__panel--before .compare-mock__nav i{ background: #C3C8DC; }
+.compare__panel--before .block{ background: #DADEEC; border-radius: 6px; }
+.compare__panel--after .compare-mock{ background: linear-gradient(155deg, var(--navy) 0%, var(--navy-deep) 100%); }
+.compare__panel--after .compare-mock__nav{ background: rgba(255,255,255,0.06); }
+.compare__panel--after .compare-mock__nav i{ background: rgba(255,255,255,0.2); }
+.compare__panel--after .block{ background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.12); border-radius: 12px; }
+.compare__panel--after .block.accent{ background: var(--grad-primary); border: none; }
+.compare-mock__col-a{ width: 28%; display:flex; flex-direction:column; gap: 8%; }
+.compare-mock__col-a .block{ flex:1; }
+.compare-mock__col-b{ flex:1; display:flex; flex-direction:column; gap: 6%; }
+.compare-mock__col-b .block.tall{ flex: 1.4; }
+.compare-mock__col-b .block.short{ flex: 0.6; }
+.compare-mock__col-b .row{ display:flex; gap: 4%; flex: 1; }
+.compare-mock__col-b .row .block{ flex:1; }
+
+.compare__label{
+  position: absolute; top: 20px;
+  font-family: var(--font-label);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding: 8px 16px;
+  border-radius: 100px;
+  z-index: 3;
+}
+.compare__label--before{ left: 20px; background: rgba(17,28,78,0.7); color: #fff; }
+.compare__label--after{ right: 20px; background: rgba(34,72,255,0.9); color: #fff; }
+.compare__handle{
+  position: absolute; top: 0; bottom: 0;
+  left: 50%;
+  width: 3px;
+  background: #fff;
+  transform: translateX(-50%);
+  z-index: 4;
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+.compare__handle-btn{
+  position: absolute; top: 50%; left: 50%;
+  width: 52px; height: 52px;
+  transform: translate(-50%,-50%);
+  border-radius: 50%;
+  background: #fff;
+  display: flex; align-items: center; justify-content: center;
+  gap: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+}
+.compare__handle-btn svg{ width: 14px; height: 14px; color: var(--navy); }
+.compare__range{
+  position: absolute; inset: 0;
+  width: 100%; height: 100%;
+  opacity: 0;
+  cursor: ew-resize;
+  margin: 0;
+}
+
+/* ============================================================
+   11. TESTIMONIALS
+============================================================ */
+.testimonials{ padding: 150px 0; background: var(--navy-deep); position: relative; overflow: hidden; }
+.testimonials::before{ content:''; position:absolute; inset:0; background: var(--grad-mesh); opacity: 0.4; }
+.testimonials .container{ position: relative; }
+.t-track-wrap{ overflow: hidden; }
+.t-track{
+  display: flex;
+  gap: 24px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  padding-bottom: 6px;
+  scrollbar-width: none;
+}
+.t-track::-webkit-scrollbar{ display: none; }
+.t-card{
+  flex: 0 0 auto;
+  width: min(400px, 84vw);
+  scroll-snap-align: start;
+  border-radius: var(--radius-lg);
+  padding: 32px;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.12);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+}
+.t-card__stars{ color: #FFC53D; letter-spacing: 3px; font-size: 0.95rem; }
+.t-card p{ margin-top: 18px; color: #C7CCE8; line-height: 1.7; font-size: 1rem; }
+.t-card__person{ display: flex; align-items: center; gap: 12px; margin-top: 26px; }
+.t-card__avatar{
+  width: 44px; height: 44px; border-radius: 50%;
+  background: var(--grad-primary);
+  display: flex; align-items: center; justify-content: center;
+  font-family: var(--font-label); font-weight: 700; font-size: 0.85rem; color: #fff;
+  flex-shrink: 0;
+}
+.t-card__name{ font-family: var(--font-display); font-weight: 700; color: #fff; font-size: 0.95rem; }
+.t-card__role{ font-size: 0.8rem; color: #8991B8; margin-top: 2px; }
+.t-nav{ display: flex; align-items: center; justify-content: center; gap: 18px; margin-top: 44px; }
+.t-nav__btn{
+  width: 46px; height: 46px; border-radius: 50%;
+  border: 1px solid rgba(255,255,255,0.16);
+  display: flex; align-items: center; justify-content: center;
+  color: #fff;
+  transition: background 0.3s ease, border-color 0.3s ease;
+}
+.t-nav__btn:hover{ background: rgba(255,255,255,0.1); }
+.t-nav__btn svg{ width: 18px; height: 18px; }
+.t-dots{ display: flex; gap: 8px; }
+.t-dots span{ width: 6px; height: 6px; border-radius: 50%; background: rgba(255,255,255,0.25); transition: all 0.4s ease; }
+.t-dots span.is-active{ width: 22px; border-radius: 4px; background: var(--grad-primary); }
+
+/* ============================================================
+   12. WHY CHOOSE US
+============================================================ */
+.why{ padding: 150px 0; background: var(--paper); }
+.why__grid{ display: grid; grid-template-columns: 0.85fr 1.15fr; gap: 80px; align-items: start; }
+.why__list{ margin-top: 34px; display: flex; flex-direction: column; gap: 22px; }
+.why__list li{ display: flex; gap: 14px; align-items: flex-start; }
+.why__list .ic{
+  width: 30px; height: 30px; border-radius: 9px; flex-shrink: 0; margin-top: 2px;
+  background: var(--grad-primary); display:flex; align-items:center; justify-content:center;
+}
+.why__list .ic svg{ width: 15px; height: 15px; color:#fff; }
+.why__list strong{ font-family: var(--font-display); color: var(--navy); font-size: 1rem; }
+.why__list p{ color: var(--muted); font-size: 0.88rem; margin-top: 3px; line-height: 1.5; }
+
+.compare-table{
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  border: 1px solid var(--line-strong);
+  background: #fff;
+  box-shadow: 0 30px 70px -30px rgba(17,28,78,0.2);
+}
+.compare-table__head{
+  display: grid; grid-template-columns: 1.4fr 1fr 1fr;
+  background: var(--navy-deep);
+}
+.compare-table__head div{ padding: 22px 20px; font-family: var(--font-label); font-size: 0.85rem; font-weight: 600; color: #C7CCE8; }
+.compare-table__head div:last-child{ color: #fff; background: var(--grad-primary); }
+.compare-table__row{
+  display: grid; grid-template-columns: 1.4fr 1fr 1fr;
+  border-top: 1px solid var(--line);
+  transition: background 0.3s ease;
+}
+.compare-table__row:hover{ background: var(--off-white); }
+.compare-table__row > div{ padding: 20px; display: flex; align-items: center; justify-content: center; }
+.compare-table__row > div:first-child{ justify-content: flex-start; font-size: 0.92rem; color: var(--navy); font-weight: 500; }
+.ct-icon{ width: 26px; height: 26px; border-radius: 50%; display: flex; align-items: center; justify-content: center; }
+.ct-icon svg{ width: 13px; height: 13px; }
+.ct-icon.no{ background: rgba(91,98,128,0.1); color: var(--muted-2); }
+.ct-icon.yes{ background: var(--grad-primary); color: #fff; transform: scale(0); transition: transform 0.5s var(--ease-soft); }
+.ct-icon.yes.is-in{ transform: scale(1); }
+@media (max-width: 900px){
+  .why__grid{ grid-template-columns: 1fr; gap: 50px; }
+  .compare-table__head div:nth-child(1), .compare-table__row > div:nth-child(1){ font-size: 0.82rem; }
+}
+@media (max-width: 560px){
+  .compare-table__head, .compare-table__row{ grid-template-columns: 1.3fr 0.85fr 0.85fr; }
+  .compare-table__head div, .compare-table__row > div{ padding: 14px 10px; }
+}
+
+/* ============================================================
+   13. STATS BAND
+============================================================ */
+.stats-band{
+  padding: 100px 0;
+  background: linear-gradient(120deg, var(--navy) 0%, var(--blue) 130%);
+  position: relative;
+  overflow: hidden;
+}
+.stats-band::before{
+  content:'';
+  position: absolute; inset: 0;
+  background-image: linear-gradient(rgba(255,255,255,0.06) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.06) 1px, transparent 1px);
+  background-size: 56px 56px;
+  mask-image: radial-gradient(ellipse 90% 100% at 50% 50%, black 20%, transparent 85%);
+}
+.stats-band__grid{
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  text-align: center;
+}
+.stats-band .stat__num{ color: #fff; font-size: clamp(2.2rem, 4vw, 3.2rem); justify-content: center; }
+.stats-band .stat__num .text-grad{ background: linear-gradient(120deg,#fff,#C7D3FF); -webkit-background-clip: text; background-clip: text; }
+.stats-band .stat__label{ color: #C7CCE8; margin-top: 8px; }
+.stats-band .stat{ display: flex; flex-direction: column; align-items: center; }
+@media (max-width: 700px){ .stats-band__grid{ grid-template-columns: repeat(2,1fr); row-gap: 46px; } }
+
+/* ============================================================
+   14. FAQ
+============================================================ */
+.faq{ padding: 150px 0; background: var(--paper); }
+.faq__wrap{ max-width: 780px; margin-inline: auto; }
+.faq-item{
+  border-bottom: 1px solid var(--line-strong);
+}
+.faq-item__q{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 26px 4px;
+  text-align: left;
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--navy);
+}
+.faq-item__icon{
+  width: 32px; height: 32px; border-radius: 50%;
+  border: 1px solid var(--line-strong);
+  display: flex; align-items: center; justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  transition: background 0.4s ease, border-color 0.4s ease, transform 0.4s var(--ease);
+}
+.faq-item__icon span, .faq-item__icon span::before{ content:''; position: absolute; background: var(--navy); transition: background 0.4s ease, transform 0.4s var(--ease); }
+.faq-item__icon span{ width: 12px; height: 1.6px; }
+.faq-item__icon span::before{ width: 1.6px; height: 12px; left: 5.2px; top: -5.2px; }
+.faq-item.is-open .faq-item__icon{ background: var(--grad-primary); border-color: transparent; transform: rotate(180deg); }
+.faq-item.is-open .faq-item__icon span, .faq-item.is-open .faq-item__icon span::before{ background: #fff; }
+.faq-item.is-open .faq-item__icon span::before{ transform: scaleY(0); }
+.faq-item__a{
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s var(--ease);
+}
+.faq-item__a p{ padding: 0 4px 26px; color: var(--muted); line-height: 1.65; font-size: 0.95rem; max-width: 90%; }
+
+/* ============================================================
+   15. BLOG
+============================================================ */
+.blog{ padding: 150px 0; background: var(--off-white); }
+.blog__grid{ display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; }
+.blog-card{
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  background: #fff;
+  border: 1px solid var(--line);
+  transition: transform 0.5s var(--ease), box-shadow 0.5s var(--ease);
+}
+.blog-card:hover{ transform: translateY(-8px); box-shadow: 0 30px 60px -26px rgba(17,28,78,0.25); }
+.blog-card__thumb{ height: 190px; position: relative; overflow: hidden; }
+.blog-card__thumb img, .blog-card__thumb .thumb-fallback{ width: 100%; height: 100%; object-fit: cover; transition: transform 0.7s var(--ease); }
+.blog-card:hover .blog-card__thumb img{ transform: scale(1.08); }
+.blog-card__thumb .tag{
+  position: absolute; top: 14px; left: 14px;
+  padding: 6px 14px; border-radius: 100px;
+  background: rgba(7,11,31,0.6); backdrop-filter: blur(6px);
+  color: #fff; font-family: var(--font-label); font-size: 0.72rem; font-weight: 600;
+}
+.blog-card__body{ padding: 24px; }
+.blog-card__meta{ display: flex; align-items: center; gap: 10px; font-size: 0.78rem; color: var(--muted-2); font-family: var(--font-label); }
+.blog-card__meta span::before{ content:'•'; margin-right: 10px; }
+.blog-card__meta span:first-child::before{ content:''; margin: 0; }
+.blog-card h3{ margin-top: 12px; font-family: var(--font-display); font-size: 1.15rem; font-weight: 700; color: var(--navy); line-height: 1.35; }
+.blog-card p{ margin-top: 10px; font-size: 0.88rem; color: var(--muted); line-height: 1.55; }
+.blog-card__link{ margin-top: 18px; display: inline-flex; align-items: center; gap: 6px; font-family: var(--font-label); font-size: 0.85rem; font-weight: 600; color: var(--blue); }
+.blog-card__link svg{ width: 14px; height: 14px; transition: transform 0.4s var(--ease); }
+.blog-card:hover .blog-card__link svg{ transform: translateX(4px); }
+@media (max-width: 900px){ .blog__grid{ grid-template-columns: 1fr; } }
+
+/* ============================================================
+   16. CTA BAND
+============================================================ */
+.cta-band{
+  margin: 0 24px 24px;
+  border-radius: var(--radius-xl);
+  padding: 110px 40px;
+  background: linear-gradient(160deg, var(--navy-deep) 0%, var(--navy) 55%, var(--blue) 140%);
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+.cta-band::before{ content:''; position: absolute; inset: 0; background: var(--grad-mesh); opacity: 0.7; }
+.cta-band__orb{ position: absolute; width: 300px; height: 300px; border-radius: 50%; filter: blur(60px); opacity: 0.5; background: var(--purple); top: -80px; right: 10%; }
+.cta-band__content{ position: relative; max-width: 680px; margin-inline: auto; }
+.cta-band h2{
+  font-family: var(--font-display); font-weight: 700;
+  font-size: clamp(2rem, 4vw, 3.2rem);
+  line-height: 1.14; letter-spacing: -0.02em; color: #fff;
+}
+.cta-band p{ margin-top: 20px; color: #A6ACC9; font-size: 1.05rem; }
+.cta-band__actions{ margin-top: 40px; display: flex; align-items: center; justify-content: center; gap: 16px; flex-wrap: wrap; }
+
+/* ============================================================
+   17. CONTACT
+============================================================ */
+.contact{ padding: 150px 0; background: var(--paper); }
+.contact__grid{ display: grid; grid-template-columns: 1.1fr 0.9fr; gap: 60px; align-items: flex-start; }
+
+.contact-form{
+  padding: 44px;
+  border-radius: var(--radius-lg);
+  background: var(--off-white);
+  border: 1px solid var(--line);
+}
+.form-row{ display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+.field{ position: relative; margin-top: 22px; }
+.form-row .field:first-child{ margin-top: 0; }
+.field:first-child{ margin-top: 0; }
+.field input, .field select, .field textarea{
+  width: 100%;
+  padding: 18px 18px 8px;
+  border-radius: 12px;
+  border: 1px solid var(--line-strong);
+  background: #fff;
+  font-size: 0.95rem;
+  color: var(--navy);
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  appearance: none;
+}
+.field select{ padding-top: 18px; }
+.field textarea{ resize: vertical; min-height: 120px; }
+.field input:focus, .field select:focus, .field textarea:focus{
+  outline: none;
+  border-color: var(--blue);
+  box-shadow: 0 0 0 4px rgba(34,72,255,0.12);
+}
+.field label{
+  position: absolute;
+  left: 18px; top: 18px;
+  font-size: 0.95rem;
+  color: var(--muted-2);
+  pointer-events: none;
+  transform-origin: left top;
+  transition: transform 0.25s var(--ease), color 0.25s ease, top 0.25s var(--ease);
+}
+.field input:focus + label, .field input:not(:placeholder-shown) + label,
+.field textarea:focus + label, .field textarea:not(:placeholder-shown) + label,
+.field.has-value label{
+  transform: translateY(-9px) scale(0.76);
+  top: 12px;
+  color: var(--blue);
+}
+.field select + label{ transform: translateY(-9px) scale(0.76); top: 12px; color: var(--muted); }
+.field select:focus + label{ color: var(--blue); }
+.field__error{
+  margin-top: 6px; font-size: 0.78rem; color: #E14848;
+  display: none; padding-left: 4px;
+}
+.field.is-invalid input, .field.is-invalid textarea, .field.is-invalid select{ border-color: #E14848; }
+.field.is-invalid .field__error{ display: block; }
+.contact-form .btn{ width: 100%; margin-top: 26px; justify-content: center; }
+.form-success{
+  display: none;
+  align-items: center;
+  gap: 12px;
+  margin-top: 20px;
+  padding: 16px 18px;
+  border-radius: 12px;
+  background: rgba(61,220,151,0.12);
+  color: #1D8A56;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+.form-success.is-shown{ display: flex; }
+.form-success svg{ width: 20px; height: 20px; flex-shrink: 0; }
+
+.contact-side{ display: flex; flex-direction: column; gap: 16px; }
+.contact-card{
+  display: flex; align-items: center; gap: 16px;
+  padding: 20px 22px;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--line);
+  background: #fff;
+  transition: transform 0.4s var(--ease), box-shadow 0.4s var(--ease), border-color 0.4s ease;
+}
+.contact-card:hover{ transform: translateY(-4px); box-shadow: 0 20px 40px -20px rgba(17,28,78,0.25); border-color: transparent; }
+.contact-card__icon{
+  width: 46px; height: 46px; border-radius: 13px; flex-shrink: 0;
+  display: flex; align-items: center; justify-content: center;
+  background: var(--grad-primary); color: #fff;
+}
+.contact-card__icon svg{ width: 21px; height: 21px; }
+.contact-card__label{ font-size: 0.76rem; color: var(--muted-2); font-family: var(--font-label); }
+.contact-card__value{ margin-top: 2px; font-family: var(--font-display); font-weight: 700; color: var(--navy); font-size: 0.98rem; }
+
+.contact-map{
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  border: 1px solid var(--line);
+  height: 220px;
+  filter: grayscale(0.3) contrast(1.05);
+}
+.contact-map iframe{ width: 100%; height: 100%; border: 0; }
+
+@media (max-width: 980px){
+  .contact__grid{ grid-template-columns: 1fr; gap: 44px; }
+}
+@media (max-width: 560px){
+  .contact-form{ padding: 28px 22px; }
+  .form-row{ grid-template-columns: 1fr; gap: 0; }
+}
+
+/* ============================================================
+   18. FOOTER
+============================================================ */
+.footer{ background: var(--navy-950); padding: 90px 0 0; position: relative; overflow: hidden; }
+.footer::before{ content:''; position: absolute; inset: 0; background: var(--grad-mesh); opacity: 0.25; }
+.footer .container{ position: relative; }
+.footer__top{ display: grid; grid-template-columns: 1.3fr 1fr 1fr 1.1fr; gap: 40px; padding-bottom: 70px; border-bottom: 1px solid rgba(255,255,255,0.08); }
+.footer__brand .nav__logo{ font-size: 1.3rem; }
+.footer__brand p{ margin-top: 18px; color: #8991B8; font-size: 0.92rem; line-height: 1.7; max-width: 280px; }
+.footer__social{ display: flex; gap: 10px; margin-top: 26px; }
+.footer__social a{
+  width: 40px; height: 40px; border-radius: 50%;
+  border: 1px solid rgba(255,255,255,0.14);
+  display: flex; align-items: center; justify-content: center;
+  color: #fff;
+  transition: background 0.3s ease, transform 0.3s var(--ease);
+}
+.footer__social a:hover{ background: var(--grad-primary); transform: translateY(-4px); border-color: transparent; }
+.footer__social a svg{ width: 17px; height: 17px; }
+.footer__col h4{ font-family: var(--font-label); font-size: 0.82rem; letter-spacing: 0.05em; text-transform: uppercase; color: #8991B8; font-weight: 600; }
+.footer__col ul{ margin-top: 20px; display: flex; flex-direction: column; gap: 13px; }
+.footer__col a{ color: #C7CCE8; font-size: 0.92rem; transition: color 0.3s ease, padding-left 0.3s ease; }
+.footer__col a:hover{ color: #fff; padding-left: 4px; }
+.footer__newsletter p{ color: #8991B8; font-size: 0.88rem; margin-top: 18px; line-height: 1.6; }
+.footer__newsletter form{ display: flex; margin-top: 16px; border-radius: 100px; border: 1px solid rgba(255,255,255,0.16); padding: 5px; }
+.footer__newsletter input{ flex: 1; background: none; border: none; padding: 10px 14px; color: #fff; font-size: 0.86rem; }
+.footer__newsletter input::placeholder{ color: #6B73A0; }
+.footer__newsletter button{ width: 40px; height: 40px; border-radius: 50%; background: var(--grad-primary); display:flex; align-items:center; justify-content:center; flex-shrink: 0; }
+.footer__newsletter button svg{ width: 15px; height: 15px; color: #fff; }
+.footer__bottom{
+  display: flex; align-items: center; justify-content: space-between; gap: 20px; flex-wrap: wrap;
+  padding: 26px 0; color: #6B73A0; font-size: 0.82rem;
+}
+.footer__bottom a{ color: #8991B8; }
+.footer__bottom a:hover{ color: #fff; }
+.footer__bottom-links{ display: flex; gap: 22px; }
+@media (max-width: 900px){ .footer__top{ grid-template-columns: 1fr 1fr; row-gap: 46px; } }
+@media (max-width: 560px){ .footer__top{ grid-template-columns: 1fr; } .footer__bottom{ flex-direction: column; text-align:center; } }
+
+/* ============================================================
+   19. SCROLL-REVEAL BASE (JS toggles .is-in)
+============================================================ */
+[data-reveal]{ opacity: 0; transform: translateY(36px); transition: opacity 0.9s var(--ease), transform 0.9s var(--ease); }
+[data-reveal].is-in{ opacity: 1; transform: translateY(0); }
+[data-reveal-scale]{ opacity: 0; transform: scale(0.92); transition: opacity 0.8s var(--ease), transform 0.8s var(--ease); }
+[data-reveal-scale].is-in{ opacity: 1; transform: scale(1); }
+
+@media (max-width: 1024px){
+  .services__grid, .why__grid{ }
+}
+@media (max-width: 780px){
+  section{ }
+  .services, .process, .work, .compare, .testimonials, .why, .faq, .blog, .contact{ padding-top: 100px; padding-bottom: 100px; }
+  .about{ padding: 100px 0; }
+  .stats-band{ padding: 70px 0; }
+}
+
+/* ============================================================
+   20. MANIFESTO
+============================================================ */
+.manifesto{ padding: 60px 0 150px; background: var(--off-white); }
+.manifesto__grid{
+  display: grid;
+  grid-template-columns: 1fr 0.75fr;
+  gap: 70px;
+  align-items: center;
+}
+.manifesto__text h2{
+  margin-top: 16px;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: clamp(1.7rem, 2.6vw, 2.3rem);
+  line-height: 1.3;
+  letter-spacing: -0.01em;
+  color: var(--navy);
+}
+.manifesto__text p{ margin-top: 20px; color: var(--muted); font-size: 1.02rem; line-height: 1.7; max-width: 440px; }
+.manifesto__visual{ display: flex; justify-content: center; }
+.manifesto__visual img{
+    width:450px;      /* İstediğin genişlik */
+    height:450px;     /* İstediğin yükseklik */
+
+    object-fit:contain;
+
+    border-radius:24px;
+
+    box-shadow:0 25px 60px rgba(17,28,78,.15);
+
+    transform:rotate(-2deg);
+
+    transition:.4s ease;
+}
+.manifesto__visual:hover img{ transform: rotate(0deg) scale(1.02); }
+.about__panel-img, .about__panel-shade{ z-index: 0; }
+.float-card{ z-index: 1; }
+@media (max-width: 900px){
+  .manifesto__grid{ grid-template-columns: 1fr; gap: 40px; text-align: center; }
+  .manifesto__text p{ margin-inline: auto; }
+}
+@media (max-width: 780px){
+  .manifesto{ padding: 40px 0 100px; }
+}
+</style>
+</head>
+<body class="is-loading">
+
+<!-- ============ AMBIENT LAYER ============ -->
+<div class="noise-overlay"></div>
+<div class="scroll-progress" id="scrollProgress"></div>
+<div class="glow-follower" id="glowFollower"></div>
+<div class="cursor-dot" id="cursorDot"></div>
+<div class="cursor-ring" id="cursorRing"><span id="cursorRingText">İncele</span></div>
+
+<!-- ============ LOADER ============ -->
+<div class="loader" id="loader">
+  <div class="loader__mark" id="loaderMark">
+    <span>L</span><span>U</span><span>M</span><span>A</span>
+  </div>
+  <div class="loader__bar-wrap"><div class="loader__bar" id="loaderBar"></div></div>
+  <div class="loader__pct"><span id="loaderPct">0</span>%</div>
+</div>
+
+<!-- ============ NAV ============ -->
+<nav class="nav" id="nav">
+  <div class="nav__inner">
+    <a href="#home" class="nav__logo">LUMA<em>MEDYA</em></a>
+    <div class="nav__links">
+      <a href="#about">Hakkımızda</a>
+      <a href="#services">Hizmetler</a>
+      <a href="#process">Süreç</a>
+      <a href="#work">Çalışmalarımız</a>
+      <a href="#testimonials">Referanslar</a>
+      <a href="#blog">Blog</a>
+      <a href="#contact">İletişim</a>
+    </div>
+    <div class="nav__right">
+      <a href="#contact" class="btn btn--primary btn--sm magnetic">Teklif Al</a>
+      <button class="nav__burger" id="navBurger" aria-label="Menüyü aç/kapat">
+        <span class="nav__burger-icon"><span></span><span></span><span></span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#about">Hakkımızda</a>
+  <a href="#services">Hizmetler</a>
+  <a href="#process">Süreç</a>
+  <a href="#work">Çalışmalarımız</a>
+  <a href="#testimonials">Referanslar</a>
+  <a href="#blog">Blog</a>
+  <a href="#contact">İletişim</a>
+  <a href="#contact" class="btn btn--primary">Teklif Al</a>
+</div>
+
+<!-- ============ HERO ============ -->
+<header class="hero" id="home">
+  <div class="hero__bg" id="heroBg"></div>
+  <div class="hero__grid"></div>
+  <div class="hero__orb hero__orb--1" data-depth="0.03"></div>
+  <div class="hero__orb hero__orb--2" data-depth="0.05"></div>
+  <div class="hero__orb hero__orb--3" data-depth="0.04"></div>
+  <div class="hero__shape hero__shape--1" data-depth="0.02"></div>
+  <div class="hero__shape hero__shape--2" data-depth="0.06"></div>
+
+  <div class="hero__content">
+    <div class="hero__badge" id="heroBadge"><b>✦</b> Türkiye'nin Yükselen Dijital Ajansı</div>
+    <h1 class="hero__title" id="heroTitle">
+      <span class="word">Markanızı</span> <span class="word">Dijital</span> <span class="word">Dünyada</span><br>
+      <span class="word accent">Güçlendirin.</span>
+    </h1>
+    <p class="hero__sub" id="heroSub">Sosyal medya yönetimi, reklam yönetimi, web tasarım ve yaratıcı içerik çözümleriyle işletmenizi dijitalde büyütüyoruz.</p>
+    <div class="hero__actions" id="heroActions">
+      <a href="#contact" class="btn btn--primary magnetic">Ücretsiz Analiz
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M7 17L17 7M17 7H8M17 7V16"/></svg>
+      </a>
+      <a href="#work" class="btn btn--ghost-dark magnetic">Çalışmalarımız</a>
+    </div>
+    <div class="hero__proof" id="heroProof">
+      <div class="avatars"><span>EY</span><span>BK</span><span>SD</span><span>MA</span></div>
+      <div class="proof-text"><div class="stars">★★★★★</div><b>100+</b> markanın güvendiği ajans</div>
+    </div>
+  </div>
+
+  <div class="hero__scroll">
+    <span>Aşağı Kaydır</span>
+    <div class="mouse"></div>
+  </div>
+</header>
+
+<!-- ============ TRUSTED BRANDS MARQUEE ============ -->
+<section class="marquee-section">
+  <div class="eyebrow">Referanslarımız</div>
+  <div class="marquee">
+    <div class="marquee__track" id="marqueeTrack">
+      <span class="marquee__logo"><i></i>ARZ GAYRİMENKUL</span>
+      <span class="marquee__logo"><i></i>DECART DİZAYN </span>
+      <span class="marquee__logo"><i></i>EKİNOX FİNAL </span>
+      <span class="marquee__logo"><i></i>PACKART </span>
+      <span class="marquee__logo"><i></i>FULIAN </span>
+      <span class="marquee__logo"><i></i>SERKAN ÜLKER</span>
+      <span class="marquee__logo"><i></i>ÖMER ÇAVDAR </span>
+      <span class="marquee__logo"><i></i>ADNAN VURAL </span>
+      <span class="marquee__logo"><i></i>ÖYKÜM GÜZELLİK SALONU </span>
+      <span class="marquee__logo"><i></i>MAVİ CLUB FITNESS </span>
+      <span class="marquee__logo"><i></i>BEAUTY ATELIER BY NUR </span>
+      <span class="marquee__logo"><i></i>REMZİ BEYRELİ</span>
+    </div>
+  </div>
+  <div class="marquee-feature" data-reveal>
+
+<style>
+.reference-gallery{
+    width:100%;
+    max-width:1400px;
+    margin:45px auto 0;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+    gap:20px;
+}
+
+.reference-gallery img{
+    width:300px;
+    height:150px;
+    object-fit:contain;
+
+    background:#ffffff;
+    padding:15px;
+
+    border-radius:16px;
+    border:1px solid rgba(17,28,78,.08);
+
+    box-shadow:0 10px 30px rgba(17,28,78,.08);
+
+    /* Soluk lacivert görünüm */
+    filter:grayscale(100%) sepia(25%) hue-rotate(175deg) saturate(180%) brightness(.88);
+
+    opacity:.75;
+
+    transition:all .45s cubic-bezier(.4,0,.2,1);
+
+    cursor:pointer;
+}
+
+.reference-gallery img:hover{
+
+    /* Gerçek renk */
+    filter:none;
+    opacity:1;
+
+    transform:translateY(-8px) scale(1.05);
+
+    border-color:#2248FF;
+
+    box-shadow:
+    0 20px 45px rgba(17,28,78,.18),
+    0 0 0 3px rgba(34,72,255,.08);
+
+}
+
+@media(max-width:1200px){
+
+.reference-gallery img{
+width:220px;
+height:90px;
+}
+
+}
+
+@media(max-width:992px){
+
+.reference-gallery img{
+width:190px;
+height:80px;
+}
+
+}
+
+@media(max-width:768px){
+
+.reference-gallery{
+gap:15px;
+}
+
+.reference-gallery img{
+width:130px;
+height:30px;
+}
+
+}
+
+@media(max-width:480px){
+
+.reference-gallery img{
+width:450px;
+height:180px;
+}
+
+}
+</style>
+
+<div class="reference-gallery">
+
+<img src="images/7.jpg" alt="ARZ Gayrimenkul" loading="lazy">
+
+<img src="images/8.jpg" alt="Decart Dizayn" loading="lazy">
+
+<img src="images/9.jpg" alt="Ekinox Final" loading="lazy">
+
+<img src="images/10.jpg" alt="Serkan Ülker" loading="lazy">
+
+<img src="images/11.jpg" alt="Remzi Beyreli" loading="lazy">
+
+<img src="images/12.jpg" alt="Adnan Vural" loading="lazy">
+
+<img src="images/13.jpg" alt="Coldwell Banker Rich" loading="lazy">
+
+<img src="images/14.jpg" alt="MBA Global Vadi Evleri" loading="lazy">
+
+<img src="images/15.jpg" alt="PackArt" loading="lazy">
+
+<img src="images/16.jpg" alt="Luma Medya" loading="lazy">
+
+<img src="images/17.jpg" alt="Kurumsal Kimlik" loading="lazy">
+
+<img src="images/18.jpg" alt="Web Tasarım" loading="lazy">
+
+<img src="images/19.jpg" alt="Sosyal Medya Yönetimi" loading="lazy">
+
+<img src="images/20.jpg" alt="Google Reklam Yönetimi" loading="lazy">
+
+</div>
+
+</div>
+</section>
+
+<!-- ============ ABOUT ============ -->
+<section class="about" id="about">
+  <div class="container about__grid">
+    <div class="about__visual" data-reveal>
+      <div class="about__panel">
+        <img class="about__panel-img" src="images/about-kurumsal-kimlik.jpg" alt="Luma Medya kurumsal kimlik çalışması" loading="lazy" width="1024" height="1536">
+        <div class="about__panel-shade"></div>
+        <div class="float-card float-card--growth" data-float="1">
+          <div class="fc-label">Aylık Erişim Artışı</div>
+          <div class="fc-value"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M7 17L17 7M17 7H8M17 7V16"/></svg> %164</div>
+        </div>
+        <div class="float-card float-card--rate glass" data-float="4">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <b>4.9/5</b>
+        </div>
+      </div>
+    </div>
+
+    <div class="about__text">
+      <div class="section-head">
+        <div class="eyebrow">Hakkımızda</div>
+        <h2>Stratejiyle tasarımı, veriyle yaratıcılığı birleştiriyoruz.</h2>
+      </div>
+      <p class="about__lead">Luma Medya, İstanbul merkezli bir dijital pazarlama ve yaratıcı ajans. 2018'den bu yana markaların dijitalde daha görünür, daha güvenilir ve daha kârlı büyümesi için çalışıyoruz.</p>
+      <p class="about__lead">Ekibimiz stratejistler, tasarımcılar, yazılımcılar ve içerik üreticilerinden oluşuyor; her projeye veriye dayalı bir strateji ve özenli bir tasarım anlayışıyla yaklaşıyoruz.</p>
+
+      <div class="about__stats">
+        <div class="stat"><div class="stat__num"><span class="counter" data-target="50">345</span><span class="text-grad">+</span></div><div class="stat__label">Tamamlanan Proje</div></div>
+        <div class="stat"><div class="stat__num"><span class="counter" data-target="100">150</span><span class="text-grad">+</span></div><div class="stat__label">Mutlu Müşteri</div></div>
+        <div class="stat"><div class="stat__num"><span class="counter" data-target="8">8</span><span class="text-grad">+</span></div><div class="stat__label">Yıllık Deneyim</div></div>
+      </div>
+
+      <div class="about__cta">
+        <a href="#process" class="btn btn--ghost-light magnetic">Sürecimizi Keşfedin
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M7 17L17 7M17 7H8M17 7V16"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ MANIFESTO ============ -->
+<section class="manifesto">
+  <div class="container manifesto__grid">
+    <div class="manifesto__text" data-reveal>
+      <div class="eyebrow">Felsefemiz</div>
+      <h2>Sadece içerik üretmiyoruz, markanızın dijitaldeki karakterini inşa ediyoruz.</h2>
+      <p>Her paylaşım, her görsel ve her kampanya markanızın kimliğinin bir parçası. Biz de bu yüzden her işi, kendi markamızmış gibi özenle tasarlıyoruz.</p>
+    </div>
+    <div class="manifesto__visual" data-reveal>
+      <img src="images/manifesto.png" alt="Luma Medya marka felsefesi" loading="lazy" width="1080" height="1080">
+    </div>
+  </div>
+</section>
+
+
+<!-- ============ SERVICES ============ -->
+<section class="services" id="services">
+  <div class="container">
+    <div class="section-head center" data-reveal>
+      <div class="eyebrow" style="justify-content:center;display:flex">Hizmetlerimiz</div>
+      <h2>Markanız için uçtan uca dijital çözümler.</h2>
+      <p>Stratejiden üretime, yayından büyümeye; ihtiyacınız olan her şey tek çatı altında.</p>
+    </div>
+
+    <div class="services__grid">
+      <div class="service-card" data-reveal>
+        <div class="service-card__num">01</div>
+        <div class="service-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><circle cx="17.5" cy="17.5" r="3.5"/></svg></div>
+        <h3>Sosyal Medya Yönetimi</h3>
+        <p>İçerik takvimi, topluluk yönetimi ve marka sesiyle sosyal medyada sürekli büyüme.</p>
+        <div class="service-card__arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M7 17L17 7M17 7H8M17 7V16"/></svg></div>
+      </div>
+
+      <div class="service-card" data-reveal>
+        <div class="service-card__num">02</div>
+        <div class="service-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11l16-7-4 16-4-7-8-2z"/></svg></div>
+        <h3>Meta Reklam Yönetimi</h3>
+        <p>Instagram ve Facebook'ta doğru kitleye, doğru mesajla ulaşan performans reklamları.</p>
+        <div class="service-card__arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M7 17L17 7M17 7H8M17 7V16"/></svg></div>
+      </div>
+
+      <div class="service-card" data-reveal>
+        <div class="service-card__num">03</div>
+        <div class="service-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="4"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3"/></svg></div>
+        <h3>Google Ads</h3>
+        <p>Arama, görüntülü ve alışveriş reklamlarıyla ölçülebilir, kârlı dönüşümler.</p>
+        <div class="service-card__arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M7 17L17 7M17 7H8M17 7V16"/></svg></div>
+      </div>
+
+      <div class="service-card" data-reveal>
+        <div class="service-card__num">04</div>
+        <div class="service-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18M8 4v5"/></svg></div>
+        <h3>Web Tasarım</h3>
+        <p>Hızlı, modern ve dönüşüm odaklı web siteleri ve landing page'ler.</p>
+        <div class="service-card__arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M7 17L17 7M17 7H8M17 7V16"/></svg></div>
+      </div>
+
+      <div class="service-card" data-reveal>
+        <div class="service-card__num">05</div>
+        <div class="service-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l4 7-4 11-4-11 4-7z"/><path d="M8 10h8"/></svg></div>
+        <h3>Kurumsal Kimlik</h3>
+        <p>Markanızın her temas noktasında tutarlı, güçlü bir kimlik dili.</p>
+        <div class="service-card__arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M7 17L17 7M17 7H8M17 7V16"/></svg></div>
+      </div>
+
+      <div class="service-card" data-reveal>
+        <div class="service-card__num">06</div>
+        <div class="service-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20l4-1 11-11a2 2 0 00-3-3L5 16l-1 4z"/></svg></div>
+        <h3>Logo Tasarımı</h3>
+        <p>Akılda kalan, zamana dayanıklı logo ve marka işaretleri.</p>
+        <div class="service-card__arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M7 17L17 7M17 7H8M17 7V16"/></svg></div>
+      </div>
+
+      <div class="service-card" data-reveal>
+        <div class="service-card__num">07</div>
+        <div class="service-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M2 17l10 5 10-5M2 12l10 5 10-5M12 2L2 7l10 5 10-5-10-5z"/></svg></div>
+        <h3>Grafik Tasarım</h3>
+        <p>Basılı ve dijital tüm mecralar için özgün görsel tasarım.</p>
+        <div class="service-card__arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M7 17L17 7M17 7H8M17 7V16"/></svg></div>
+      </div>
+
+      <div class="service-card" data-reveal>
+        <div class="service-card__num">08</div>
+        <div class="service-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="6" width="14" height="12" rx="2"/><path d="M16 10l6-3v10l-6-3"/></svg></div>
+        <h3>Video Editing</h3>
+        <p>Sinematik kurgu ve renk düzenlemesiyle etkileyici video içerikleri.</p>
+        <div class="service-card__arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M7 17L17 7M17 7H8M17 7V16"/></svg></div>
+      </div>
+
+      <div class="service-card" data-reveal>
+        <div class="service-card__num">09</div>
+        <div class="service-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="2" width="12" height="20" rx="2.5"/><path d="M10 6h4M9 18h6"/></svg></div>
+        <h3>Reels</h3>
+        <p>Kısa formatlı içeriklerle organik erişimi ve etkileşimi artırıyoruz.</p>
+        <div class="service-card__arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M7 17L17 7M17 7H8M17 7V16"/></svg></div>
+      </div>
+
+      <div class="service-card" data-reveal>
+        <div class="service-card__num">10</div>
+        <div class="service-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="2.4"/><circle cx="18" cy="6" r="2.4"/><circle cx="6" cy="18" r="2.4"/><circle cx="18" cy="18" r="2.4"/><path d="M8.2 7.8L11 11M15.8 7.8L13 11M8.2 16.2L11 13M15.8 16.2L13 13"/></svg></div>
+        <h3>Drone Çekimi</h3>
+        <p>Havadan çekimlerle markanızı farklı bir perspektiften anlatıyoruz.</p>
+        <div class="service-card__arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M7 17L17 7M17 7H8M17 7V16"/></svg></div>
+      </div>
+
+      <div class="service-card" data-reveal>
+        <div class="service-card__num">11</div>
+        <div class="service-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="10" cy="10" r="6.5"/><path d="M15 15l6 6M7.5 10h5M10 7.5v5"/></svg></div>
+        <h3>SEO</h3>
+        <p>Teknik SEO ve içerik stratejisiyle organik trafiğinizi büyütüyoruz.</p>
+        <div class="service-card__arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M7 17L17 7M17 7H8M17 7V16"/></svg></div>
+      </div>
+
+      <div class="service-card" data-reveal>
+        <div class="service-card__num">12</div>
+        <div class="service-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H7a2 2 0 00-2 2v14a2 2 0 002 2h10a2 2 0 002-2V8l-5-5z"/><path d="M14 3v5h5M9 13h6M9 17h6"/></svg></div>
+        <h3>İçerik Üretimi</h3>
+        <p>Fotoğraf, metin ve video üretimiyle marka hikayenizi anlatıyoruz.</p>
+        <div class="service-card__arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M7 17L17 7M17 7H8M17 7V16"/></svg></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROCESS ============ -->
+<section class="process on-dark" id="process">
+  <div class="container">
+    <div class="section-head center" data-reveal>
+      <div class="eyebrow eyebrow--light" style="justify-content:center;display:flex">Çalışma Sürecimiz</div>
+      <h2>Fikirden büyümeye, altı net adım.</h2>
+      <p>Her proje aynı titiz süreçten geçer; şeffaf, planlı ve sonuç odaklı.</p>
+    </div>
+
+    <div class="process__row" id="processRow">
+      <div class="process__spine"><div class="process__spine-fill" id="processFill"></div></div>
+
+      <div class="process-step" data-step>
+        <div class="process-step__dot"></div>
+        <div class="process-step__num">01</div>
+        <h3>Tanışma</h3>
+        <p>İhtiyaçlarınızı, hedeflerinizi ve marka vizyonunuzu birlikte konuşuyoruz.</p>
+      </div>
+      <div class="process-step" data-step>
+        <div class="process-step__dot"></div>
+        <div class="process-step__num">02</div>
+        <h3>Strateji</h3>
+        <p>Verilere dayalı, hedefe özel bir büyüme stratejisi kuruyoruz.</p>
+      </div>
+      <div class="process-step" data-step>
+        <div class="process-step__dot"></div>
+        <div class="process-step__num">03</div>
+        <h3>Tasarım</h3>
+        <p>Marka kimliğinizi ve dijital deneyiminizi özenle tasarlıyoruz.</p>
+      </div>
+      <div class="process-step" data-step>
+        <div class="process-step__dot"></div>
+        <div class="process-step__num">04</div>
+        <h3>Revizyon</h3>
+        <p>Geri bildirimlerinizle tasarımı birlikte mükemmelleştiriyoruz.</p>
+      </div>
+      <div class="process-step" data-step>
+        <div class="process-step__dot"></div>
+        <div class="process-step__num">05</div>
+        <h3>Yayın</h3>
+        <p>Onaylanan çalışmayı titizlikle hayata geçiriyor, yayına alıyoruz.</p>
+      </div>
+      <div class="process-step" data-step>
+        <div class="process-step__dot"></div>
+        <div class="process-step__num">06</div>
+        <h3>Büyüme</h3>
+        <p>Performansı sürekli izliyor, optimize ediyor ve büyütüyoruz.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PORTFOLIO ============ -->
+<section class="work" id="work">
+  <div class="container">
+    <div class="work__head-row">
+      <div class="section-head" style="margin-bottom:0" data-reveal>
+        <div class="eyebrow">Çalışmalarımız</div>
+        <h2>Sonuç üreten işlerden bir seçki.</h2>
+      </div>
+      <div class="work__filters" id="workFilters" data-reveal>
+        <button class="is-active" data-filter="all">Tümü</button>
+        <button data-filter="social">Sosyal Medya</button>
+        <button data-filter="web">Web Tasarım</button>
+        <button data-filter="brand">Marka Kimliği</button>
+        <button data-filter="logo">Logo</button>
+        <button data-filter="ads">Reklam</button>
+      </div>
+    </div>
+
+    <div class="work__grid" id="workGrid">
+      <div class="work-item" data-category="social" data-size="tall" data-reveal
+        data-title="ARZ" data-cat-label="Sosyal Medya" data-img="images/work-arz.jpg"
+        data-desc="ARZ markası için hazırladığımız hikaye (story) tasarımı.">
+        <div class="work-item__bg"><img src="images/work-arz.jpg" alt="ARZ sosyal medya story tasarımı" loading="lazy"></div>
+        <div class="work-item__overlay"><div class="work-item__cat">Sosyal Medya</div><div class="work-item__title">ARZ</div></div>
+      </div>
+
+      <div class="work-item" data-category="web" data-reveal
+        data-title="Velia Home" data-cat-label="Web Tasarım"
+        data-desc="Velia Home'un e-ticaret deneyimini baştan tasarladık; hızlı yüklenen, dönüşüm odaklı ve mobil öncelikli bir site kurduk.">
+        <div class="work-item__bg" style="background:linear-gradient(155deg,#111C4E,#2248FF)"><div class="work-item__pattern"></div></div>
+        <div class="work-item__overlay"><div class="work-item__cat">Web Tasarım</div><div class="work-item__title">Velia Home</div></div>
+      </div>
+
+      <div class="work-item" data-category="brand" data-reveal
+        data-title="Albüm Kapağı Tasarımı" data-cat-label="Marka Kimliği" data-img="images/work-album.jpg"
+        data-desc="Bir müzik projesi için tasarladığımız albüm kapağı çalışması.">
+        <div class="work-item__bg"><img src="images/work-album.jpg" alt="Albüm kapağı tasarımı" loading="lazy"></div>
+        <div class="work-item__overlay"><div class="work-item__cat">Marka Kimliği</div><div class="work-item__title">Albüm Kapağı</div></div>
+      </div>
+
+      <div class="work-item" data-category="logo" data-size="small" data-reveal
+        data-title="Luma Medya" data-cat-label="Logo" data-img="images/work-logo.jpg"
+        data-desc="Kendi marka kimliğimiz için tasarladığımız logo sunumu.">
+        <div class="work-item__bg"><img src="images/work-logo.jpg" alt="Luma Medya logo sunumu" loading="lazy"></div>
+        <div class="work-item__overlay"><div class="work-item__cat">Logo</div><div class="work-item__title">Luma Medya</div></div>
+      </div>
+
+      <div class="work-item" data-category="social" data-size="small" data-reveal
+        data-title="Ömer" data-cat-label="Sosyal Medya" data-img="images/work-omer.jpg"
+        data-desc="Ömer için hazırladığımız kişisel marka story tasarımı.">
+        <div class="work-item__bg"><img src="images/work-omer.jpg" alt="Ömer story tasarımı" loading="lazy"></div>
+        <div class="work-item__overlay"><div class="work-item__cat">Sosyal Medya</div><div class="work-item__title">Ömer</div></div>
+      </div>
+
+      <div class="work-item" data-category="social" data-size="wide" data-reveal
+        data-title="Remxi" data-cat-label="Sosyal Medya" data-img="images/work-remxi.jpg"
+        data-desc="Remxi markası için ürettiğimiz sosyal medya içeriği.">
+        <div class="work-item__bg"><img src="images/work-remxi.jpg" alt="Remxi sosyal medya tasarımı" loading="lazy"></div>
+        <div class="work-item__overlay"><div class="work-item__cat">Sosyal Medya</div><div class="work-item__title">Remxi</div></div>
+      </div>
+
+      <div class="work-item" data-category="ads" data-size="wide" data-reveal
+        data-title="Ekinox" data-cat-label="Reklam" data-img="images/work-ekinox.jpg"
+        data-desc="Ekinox için tasarladığımız kampanya görseli.">
+        <div class="work-item__bg"><img src="images/work-ekinox.jpg" alt="Ekinox kampanya görseli" loading="lazy"></div>
+        <div class="work-item__overlay"><div class="work-item__cat">Reklam</div><div class="work-item__title">Ekinox</div></div>
+      </div>
+
+      <div class="work-item" data-category="social" data-reveal
+        data-title="Decart" data-cat-label="Sosyal Medya" data-img="images/work-decart.jpg"
+        data-desc="Decart için ürettiğimiz sosyal medya gönderi tasarımı.">
+        <div class="work-item__bg"><img src="images/work-decart.jpg" alt="Decart sosyal medya post tasarımı" loading="lazy"></div>
+        <div class="work-item__overlay"><div class="work-item__cat">Sosyal Medya</div><div class="work-item__title">Decart</div></div>
+      </div>
+
+      <div class="work-item" data-category="social" data-size="small" data-reveal
+        data-title="Serkan Ülker" data-cat-label="Sosyal Medya" data-img="images/work-serkan.jpg"
+        data-desc="Serkan Ülker için hazırladığımız kişisel marka içeriği.">
+        <div class="work-item__bg"><img src="images/work-serkan.jpg" alt="Serkan Ülker sosyal medya tasarımı" loading="lazy"></div>
+        <div class="work-item__overlay"><div class="work-item__cat">Sosyal Medya</div><div class="work-item__title">Serkan Ülker</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="work-modal" id="workModal">
+  <div class="work-modal__panel">
+    <button class="work-modal__close" id="workModalClose"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+    <div class="work-modal__visual" id="workModalVisual"></div>
+    <div class="work-modal__body">
+      <div class="work-item__cat" id="workModalCat">Kategori</div>
+      <h3 id="workModalTitle">Proje Başlığı</h3>
+      <p id="workModalDesc">Açıklama</p>
+      <div class="work-modal__tags">
+        <span>Strateji</span><span>Tasarım</span><span>Uygulama</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ============ BEFORE / AFTER ============ -->
+<section class="compare" id="compare">
+  <div class="container">
+    <div class="section-head center" data-reveal>
+      <div class="eyebrow" style="justify-content:center;display:flex">Dönüşüm</div>
+      <h2>Yeniden tasarlamadan önce ve sonra.</h2>
+      <p>Kaydırıcıyı hareket ettirin, Velia Home'un web sitesindeki dönüşümü görün.</p>
+    </div>
+
+    <div class="compare__box" id="compareBox" data-reveal>
+      <div class="compare__label compare__label--before">Önce</div>
+      <div class="compare__label compare__label--after">Sonra</div>
+
+      <div class="compare__panel compare__panel--before">
+        <div class="compare-mock">
+          <div class="compare-mock__nav"><i style="background:#e15c5c"></i><i style="background:#e8c15c"></i><i style="background:#5cc272"></i></div>
+          <div class="compare-mock__body">
+            <div class="compare-mock__col-a"><div class="block"></div><div class="block"></div><div class="block"></div></div>
+            <div class="compare-mock__col-b">
+              <div class="block tall"></div>
+              <div class="row"><div class="block"></div><div class="block"></div><div class="block"></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="compare__panel compare__panel--after" id="compareAfter">
+        <div class="compare-mock">
+          <div class="compare-mock__nav"><i></i><i></i><i></i></div>
+          <div class="compare-mock__body">
+            <div class="compare-mock__col-a"><div class="block accent"></div><div class="block"></div><div class="block"></div></div>
+            <div class="compare-mock__col-b">
+              <div class="block tall accent"></div>
+              <div class="row"><div class="block"></div><div class="block"></div><div class="block"></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="compare__handle" id="compareHandle">
+        <div class="compare__handle-btn">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M14 7l-5 5 5 5"/></svg>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M10 7l5 5-5 5"/></svg>
+        </div>
+      </div>
+      <input type="range" class="compare__range" id="compareRange" min="0" max="100" value="50" aria-label="Önce sonra karşılaştırma kaydırıcısı">
+    </div>
+  </div>
+</section>
+
+<!-- ============ TESTIMONIALS ============ -->
+<section class="testimonials on-dark" id="testimonials">
+  <div class="container">
+    <div class="section-head center" data-reveal>
+      <div class="eyebrow eyebrow--light" style="justify-content:center;display:flex">Referanslar</div>
+      <h2>Müşterilerimiz bizim için ne diyor?</h2>
+    </div>
+
+    <div class="t-track-wrap">
+      <div class="t-track" id="tTrack">
+        <div class="t-card">
+          <div class="t-card__stars">★★★★★</div>
+          <p>"Luma Medya ile çalışmaya başladığımızdan beri sosyal medya erişimimiz katlanarak arttı. Şeffaf raporlama ve hızlı iletişim en çok değer verdiğimiz nokta."</p>
+          <div class="t-card__person">
+            <div class="t-card__avatar">EY</div>
+            <div><div class="t-card__name">Ahmet Temel </div><div class="t-card__role">Ekinox Final Broker/Owner</div></div>
+          </div>
+        </div>
+        <div class="t-card">
+          <div class="t-card__stars">★★★★★</div>
+          <p>"Reklam bütçemizi çok daha verimli kullanmaya başladık. Ekip, veriye dayalı ama aynı zamanda yaratıcı çözümler sunuyor."</p>
+          <div class="t-card__person">
+            <div class="t-card__avatar">BK</div>
+            <div><div class="t-card__name">Adnan Vural </div><div class="t-card__role">Ticari Gayrimenkul Danışmanı</div></div>
+          </div>
+        </div>
+        <div class="t-card">
+          <div class="t-card__stars">★★★★★</div>
+          <p>"Yeni web sitemiz hem çok daha hızlı hem de dönüşüm oranlarımızı belirgin şekilde artırdı. Süreç boyunca her adımda yanımızdaydılar."</p>
+          <div class="t-card__person">
+            <div class="t-card__avatar">SD</div>
+            <div><div class="t-card__name">Nurhan Erderin </div><div class="t-card__role">Packart Kurucusu</div></div>
+          </div>
+        </div>
+        <div class="t-card">
+          <div class="t-card__stars">★★★★★</div>
+          <p>"Marka kimliğimizi yeniden tanımladılar. Artık müşterilerimiz bizi çok daha profesyonel buluyor."</p>
+          <div class="t-card__person">
+            <div class="t-card__avatar">MA</div>
+            <div><div class="t-card__name">Serkan Ülker</div><div class="t-card__role">Ekonomist Gayrimenkul Danışmanı</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="t-nav">
+      <button class="t-nav__btn" id="tPrev" aria-label="Önceki"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M15 6l-6 6 6 6"/></svg></button>
+      <div class="t-dots" id="tDots"></div>
+      <button class="t-nav__btn" id="tNext" aria-label="Sonraki"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M9 6l6 6-6 6"/></svg></button>
+    </div>
+  </div>
+</section>
+
+<!-- ============ WHY CHOOSE US ============ -->
+<section class="why" id="why">
+  <div class="container why__grid">
+    <div data-reveal>
+      <div class="eyebrow">Neden Luma Medya?</div>
+      <h2 style="font-family:var(--font-display);font-weight:700;font-size:clamp(1.9rem,3vw,2.6rem);line-height:1.15;letter-spacing:-0.02em;color:var(--navy);margin-top:14px;">Ajans değil, büyüme ortağı.</h2>
+      <ul class="why__list">
+        <li>
+          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg></div>
+          <div><strong>Özel strateji</strong><p>Her markaya, hazır şablonlar değil kendine özel bir büyüme planı kuruyoruz.</p></div>
+        </li>
+        <li>
+          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg></div>
+          <div><strong>Şeffaf raporlama</strong><p>Her ay net rakamlarla nereye ulaştığınızı birlikte görüyoruz.</p></div>
+        </li>
+        <li>
+          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg></div>
+          <div><strong>Yaratıcılık + performans</strong><p>Göze hitap eden tasarımı, ölçülebilir sonuçlarla birleştiriyoruz.</p></div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="compare-table" data-reveal>
+      <div class="compare-table__head">
+        <div>Özellik</div>
+        <div>Diğer Ajanslar</div>
+        <div>Luma Medya</div>
+      </div>
+      <div class="compare-table__row" data-ct-row>
+        <div>Kişiye Özel Strateji</div>
+        <div><div class="ct-icon no"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg></div></div>
+        <div><div class="ct-icon yes"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg></div></div>
+      </div>
+      <div class="compare-table__row" data-ct-row>
+        <div>Şeffaf Aylık Raporlama</div>
+        <div><div class="ct-icon no"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg></div></div>
+        <div><div class="ct-icon yes"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg></div></div>
+      </div>
+      <div class="compare-table__row" data-ct-row>
+        <div>48 Saat İçinde Yanıt</div>
+        <div><div class="ct-icon no"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg></div></div>
+        <div><div class="ct-icon yes"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg></div></div>
+      </div>
+      <div class="compare-table__row" data-ct-row>
+        <div>Sınırsız Revizyon Hakkı</div>
+        <div><div class="ct-icon no"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg></div></div>
+        <div><div class="ct-icon yes"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg></div></div>
+      </div>
+      <div class="compare-table__row" data-ct-row>
+        <div>Tek Elden Tam Hizmet</div>
+        <div><div class="ct-icon no"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg></div></div>
+        <div><div class="ct-icon yes"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ STATS BAND ============ -->
+<section class="stats-band">
+  <div class="container stats-band__grid">
+    <div class="stat" data-reveal><div class="stat__num"><span class="counter" data-target="250">0</span><span class="text-grad">+</span></div><div class="stat__label">Tamamlanan Proje</div></div>
+    <div class="stat" data-reveal><div class="stat__num"><span class="counter" data-target="150">0</span><span class="text-grad">+</span></div><div class="stat__label">Mutlu Müşteri</div></div>
+    <div class="stat" data-reveal><div class="stat__num"><span class="counter" data-target="8">0</span><span class="text-grad">+</span></div><div class="stat__label">Yıllık Deneyim</div></div>
+    <div class="stat" data-reveal><div class="stat__num"><span class="counter" data-target="10">0</span><span class="text-grad">M+</span></div><div class="stat__label">Toplam Erişim</div></div>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section class="faq" id="faq">
+  <div class="container">
+    <div class="section-head center" data-reveal>
+      <div class="eyebrow" style="justify-content:center;display:flex">Sıkça Sorulan Sorular</div>
+      <h2>Merak ettikleriniz.</h2>
+    </div>
+
+    <div class="faq__wrap" data-reveal>
+      <div class="faq-item is-open">
+        <button class="faq-item__q"><span>Luma Medya hangi hizmetleri sunuyor?</span><span class="faq-item__icon"><span></span></span></button>
+        <div class="faq-item__a"><p>Sosyal medya yönetimi, Meta ve Google reklam yönetimi, web tasarım, kurumsal kimlik, logo ve grafik tasarım, video prodüksiyon ve SEO dahil olmak üzere dijital pazarlamanın tüm alanlarında hizmet veriyoruz.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-item__q"><span>Bir proje ne kadar sürede tamamlanır?</span><span class="faq-item__icon"><span></span></span></button>
+        <div class="faq-item__a"><p>Proje kapsamına göre değişmekle birlikte bir web sitesi ortalama 3-4 haftada, marka kimliği çalışmaları ise 2-3 haftada tamamlanır. Sosyal medya ve reklam yönetimi süreklilik gerektirir.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-item__q"><span>Fiyatlandırma nasıl belirleniyor?</span><span class="faq-item__icon"><span></span></span></button>
+        <div class="faq-item__a"><p>Fiyatlandırmayı ihtiyacınıza, hizmet kapsamına ve reklam bütçenize göre özel olarak hazırlıyoruz. Ücretsiz analiz görüşmesinden sonra size net bir teklif sunuyoruz.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-item__q"><span>Hangi sektörlerle çalışıyorsunuz?</span><span class="faq-item__icon"><span></span></span></button>
+        <div class="faq-item__a"><p>E-ticaret, perakende, gıda &amp; içecek, teknoloji, kozmetik, gayrimenkul ve hizmet sektörü başta olmak üzere birçok farklı alanda markalarla çalışıyoruz.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-item__q"><span>Raporlama süreci nasıl işliyor?</span><span class="faq-item__icon"><span></span></span></button>
+        <div class="faq-item__a"><p>Her ay düzenli performans raporu paylaşıyor, talep halinde haftalık kısa güncellemeler de sunuyoruz. Tüm veriler şeffaf bir şekilde sizinle paylaşılır.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-item__q"><span>Sözleşme süresi ne kadar?</span><span class="faq-item__icon"><span></span></span></button>
+        <div class="faq-item__a"><p>Standart iş birliklerimiz aylık yenilenen esnek sözleşmelerle ilerler; sizi uzun vadeli taahhütlerle sınırlamıyoruz.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ BLOG ============ -->
+<section class="blog" id="blog">
+  <div class="container">
+    <div class="section-head center" data-reveal>
+      <div class="eyebrow" style="justify-content:center;display:flex">Blog</div>
+      <h2>Dijital dünyadan güncel içerikler.</h2>
+    </div>
+
+    <div class="blog__grid">
+      <article class="blog-card" data-reveal>
+        <div class="blog-card__thumb"><img src="images/blog-1.jpg" alt="2026 sosyal medya trendleri" loading="lazy"><span class="tag">Sosyal Medya</span></div>
+        <div class="blog-card__body">
+          <div class="blog-card__meta"><span>12 Tem 2026</span><span>6 dk okuma</span></div>
+          <h3>2026'da Sosyal Medya Trendleri</h3>
+          <p>Markaların bu yıl öne çıkmak için takip etmesi gereken içerik ve platform trendlerini derledik.</p>
+          <a href="#" class="blog-card__link">Devamını Oku <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        </div>
+      </article>
+      <article class="blog-card" data-reveal>
+        <div class="blog-card__thumb"><img src="images/blog-2.jpg" alt="Google Ads bütçe yönetimi" loading="lazy"><span class="tag">Reklam</span></div>
+        <div class="blog-card__body">
+          <div class="blog-card__meta"><span>28 Haz 2026</span><span>5 dk okuma</span></div>
+          <h3>Google Ads'te Bütçenizi Doğru Yönetmek</h3>
+          <p>Reklam harcamalarınızdan maksimum verimi almak için pratik optimizasyon önerileri.</p>
+          <a href="#" class="blog-card__link">Devamını Oku <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        </div>
+      </article>
+      <article class="blog-card" data-reveal>
+        <div class="blog-card__thumb"><img src="images/blog-3.jpg" alt="Marka kimliği önemi" loading="lazy"><span class="tag">Marka</span></div>
+        <div class="blog-card__body">
+          <div class="blog-card__meta"><span>14 Haz 2026</span><span>4 dk okuma</span></div>
+          <h3>Marka Kimliği Neden Bu Kadar Önemli?</h3>
+          <p>Güçlü bir marka kimliğinin güven ve tanınırlığa olan etkisini örneklerle inceliyoruz.</p>
+          <a href="#" class="blog-card__link">Devamını Oku <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CTA BAND ============ -->
+<section class="cta-band" data-reveal-scale>
+  <div class="cta-band__orb"></div>
+  <div class="cta-band__content">
+    <div class="eyebrow eyebrow--light" style="justify-content:center;display:flex">Hazır mısınız?</div>
+    <h2 style="margin-top:16px;">Büyümeye Hazır mısınız?<br>Birlikte Harika Bir Şey İnşa Edelim.</h2>
+    <p>Ücretsiz analiz görüşmesiyle markanız için nereden başlayacağımızı birlikte belirleyelim.</p>
+    <div class="cta-band__actions">
+      <a href="https://wa.me/902120000000" target="_blank" rel="noopener" class="btn btn--wa magnetic">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.7-.9-2-1-.3-.1-.5-.1-.7.1-.2.3-.8 1-.9 1.1-.2.2-.3.2-.6.1-.3-.1-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.1.2-.3.3-.5.1-.2 0-.4 0-.5C10 9 9.4 7.6 9.1 7c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.3.3-1 1-1 2.4s1 2.8 1.2 3c.1.2 2 3 4.8 4.3.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.7-.7 2-1.4.2-.7.2-1.2.1-1.4-.1-.1-.3-.2-.6-.3z"/><path d="M12 2C6.5 2 2 6.5 2 12c0 1.9.5 3.6 1.4 5.2L2 22l4.9-1.3C8.4 21.5 10.1 22 12 22c5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18.2c-1.7 0-3.3-.5-4.6-1.3l-.3-.2-3.2.8.9-3.1-.2-.3c-.9-1.4-1.4-3-1.4-4.7C3.2 7.2 7.2 3.2 12 3.2S20.8 7.2 20.8 12 16.8 20.2 12 20.2z"/></svg>
+        WhatsApp'tan Yaz
+      </a>
+      <a href="#contact" class="btn btn--ghost-dark magnetic">Teklif Al
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M7 17L17 7M17 7H8M17 7V16"/></svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="contact" id="contact">
+  <div class="container">
+    <div class="section-head center" data-reveal>
+      <div class="eyebrow" style="justify-content:center;display:flex">İletişim</div>
+      <h2>Projenizi konuşalım.</h2>
+      <p>Formu doldurun, 24 saat içinde size dönüş yapalım.</p>
+    </div>
+
+    <div class="contact__grid">
+      <form class="contact-form" id="contactForm" data-reveal novalidate>
+        <div class="form-row">
+          <div class="field">
+            <input type="text" id="fName" name="name" placeholder=" " required>
+            <label for="fName">Ad Soyad</label>
+            <div class="field__error">Lütfen adınızı girin.</div>
+          </div>
+          <div class="field">
+            <input type="email" id="fEmail" name="email" placeholder=" " required>
+            <label for="fEmail">E-posta</label>
+            <div class="field__error">Geçerli bir e-posta girin.</div>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="field">
+            <input type="tel" id="fPhone" name="phone" placeholder=" ">
+            <label for="fPhone">Telefon</label>
+          </div>
+          <div class="field">
+            <select id="fBudget" name="budget">
+              <option value="">Seçiniz</option>
+              <option>10.000₺ - 25.000₺</option>
+              <option>25.000₺ - 50.000₺</option>
+              <option>50.000₺ - 100.000₺</option>
+              <option>100.000₺ ve üzeri</option>
+            </select>
+            <label for="fBudget">Aylık Bütçe</label>
+          </div>
+        </div>
+        <div class="field">
+          <textarea id="fMessage" name="message" placeholder=" " required></textarea>
+          <label for="fMessage">Projenizden bahsedin</label>
+          <div class="field__error">Lütfen bir mesaj yazın.</div>
+        </div>
+        <button type="submit" class="btn btn--primary magnetic">Mesajı Gönder
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M7 17L17 7M17 7H8M17 7V16"/></svg>
+        </button>
+        <div class="form-success" id="formSuccess">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>
+          Mesajınız alındı, en kısa sürede dönüş yapacağız.
+        </div>
+      </form>
+
+      <div class="contact-side" data-reveal>
+        <div class="contact-card">
+          <div class="contact-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.13.96.36 1.9.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0122 16.92z"/></svg></div>
+          <div><div class="contact-card__label">Telefon</div><div class="contact-card__value">+90 507 167 50 24</div></div>
+        </div>
+        <div class="contact-card">
+          <div class="contact-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16v16H4z" opacity="0"/><path d="M22 6l-10 7L2 6"/><rect x="2" y="4" width="20" height="16" rx="2"/></svg></div>
+          <div><div class="contact-card__label">E-posta</div><div class="contact-card__value">lumamedya.tr@hotmail.com</div></div>
+        </div>
+        <div class="contact-card">
+          <div class="contact-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.6" cy="6.4" r="1.1" fill="currentColor" stroke="none"/></svg></div>
+          <div><div class="contact-card__label">Instagram</div><div class="contact-card__value">@lumamedya.tr</div></div>
+        </div>
+        <div class="contact-card">
+          <div class="contact-card__icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.7-.9-2-1-.3-.1-.5-.1-.7.1-.2.3-.8 1-.9 1.1-.2.2-.3.2-.6.1-.3-.1-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.1.2-.3.3-.5.1-.2 0-.4 0-.5C10 9 9.4 7.6 9.1 7c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.3.3-1 1-1 2.4s1 2.8 1.2 3c.1.2 2 3 4.8 4.3.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.7-.7 2-1.4.2-.7.2-1.2.1-1.4-.1-.1-.3-.2-.6-.3z"/><path d="M12 2C6.5 2 2 6.5 2 12c0 1.9.5 3.6 1.4 5.2L2 22l4.9-1.3C8.4 21.5 10.1 22 12 22c5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18.2c-1.7 0-3.3-.5-4.6-1.3l-.3-.2-3.2.8.9-3.1-.2-.3c-.9-1.4-1.4-3-1.4-4.7C3.2 7.2 7.2 3.2 12 3.2S20.8 7.2 20.8 12 16.8 20.2 12 20.2z"/></svg></div>
+          <div><div class="contact-card__label">WhatsApp</div><div class="contact-card__value">+90 507 167 50 24</div></div>
+        </div>
+        <div class="contact-map">
+          <iframe src="https://www.google.com/maps?q=Levent,Istanbul,Turkey&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Luma Medya Konum"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer__top">
+      <div class="footer__brand">
+        <a href="#home" class="nav__logo">LUMA<em>MEDYA</em></a>
+        <p>İstanbul merkezli dijital pazarlama ve yaratıcı ajans. Markanızı stratejiyle, tasarımla ve veriyle büyütüyoruz.</p>
+        <div class="footer__social">
+          <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.6" cy="6.4" r="1.1" fill="currentColor" stroke="none"/></svg></a>
+          <a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="2" width="20" height="20" rx="4"/><path d="M7 10v7M7 7v.01M12 17v-4.5a2.5 2.5 0 015 0V17M12 10v7"/></svg></a>
+          <a href="#" aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.7-.9-2-1-.3-.1-.5-.1-.7.1-.2.3-.8 1-.9 1.1-.2.2-.3.2-.6.1-.3-.1-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.1.2-.3.3-.5.1-.2 0-.4 0-.5C10 9 9.4 7.6 9.1 7c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.3.3-1 1-1 2.4s1 2.8 1.2 3c.1.2 2 3 4.8 4.3.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.7-.7 2-1.4.2-.7.2-1.2.1-1.4-.1-.1-.3-.2-.6-.3z"/><path d="M12 2C6.5 2 2 6.5 2 12c0 1.9.5 3.6 1.4 5.2L2 22l4.9-1.3C8.4 21.5 10.1 22 12 22c5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18.2c-1.7 0-3.3-.5-4.6-1.3l-.3-.2-3.2.8.9-3.1-.2-.3c-.9-1.4-1.4-3-1.4-4.7C3.2 7.2 7.2 3.2 12 3.2S20.8 7.2 20.8 12 16.8 20.2 12 20.2z"/></svg></a>
+        </div>
+      </div>
+      <div class="footer__col">
+        <h4>Kurumsal</h4>
+        <ul>
+          <li><a href="#about">Hakkımızda</a></li>
+          <li><a href="#process">Süreç</a></li>
+          <li><a href="#work">Çalışmalarımız</a></li>
+          <li><a href="#testimonials">Referanslar</a></li>
+          <li><a href="#blog">Blog</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4>Hizmetler</h4>
+        <ul>
+          <li><a href="#services">Sosyal Medya Yönetimi</a></li>
+          <li><a href="#services">Reklam Yönetimi</a></li>
+          <li><a href="#services">Web Tasarım</a></li>
+          <li><a href="#services">Marka Kimliği</a></li>
+          <li><a href="#services">SEO</a></li>
+        </ul>
+      </div>
+      <div class="footer__col footer__newsletter">
+        <h4>Bültene Katılın</h4>
+        <p>Dijital pazarlama içgörülerini kaçırmayın.</p>
+        <form onsubmit="return false">
+          <input type="email" placeholder="E-posta adresiniz" required>
+          <button type="submit" aria-label="Gönder"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+        </form>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>© 2026 Luma Medya. Tüm hakları saklıdır.</span>
+      <div class="footer__bottom-links">
+        <a href="#">Gizlilik Politikası</a>
+        <a href="#">Kullanım Şartları</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  /* ---------- Loader ---------- */
+  var loader = document.getElementById('loader');
+  var loaderBar = document.getElementById('loaderBar');
+  var loaderPct = document.getElementById('loaderPct');
+  var body = document.body;
+  var pct = 0;
+  var loadInterval = setInterval(function () {
+    pct += Math.random() * 18 + 6;
+    if (pct >= 100) {
+      pct = 100;
+      clearInterval(loadInterval);
+      finishLoad();
+    }
+    loaderBar.style.right = (100 - pct) + '%';
+    loaderPct.textContent = Math.floor(pct);
+  }, 140);
+
+  function finishLoad() {
+    setTimeout(function () {
+      loader.classList.add('is-done');
+      body.classList.remove('is-loading');
+      playHeroIntro();
+      revealCheck();
+    }, 250);
+  }
+
+  /* Split hero title letters */
+  var heroTitle = document.getElementById('heroTitle');
+  if (heroTitle) {
+    var words = heroTitle.querySelectorAll('.word');
+    var globalIndex = 0;
+    words.forEach(function (word) {
+      var text = word.textContent;
+      word.textContent = '';
+      text.split('').forEach(function (ch) {
+        var span = document.createElement('span');
+        span.className = 'char';
+        span.textContent = ch === ' ' ? '\u00A0' : ch;
+        span.style.transitionDelay = (globalIndex * 0.018) + 's';
+        span.style.transitionProperty = 'opacity, transform, filter';
+        span.style.transitionDuration = '0.8s';
+        span.style.transitionTimingFunction = 'cubic-bezier(0.16,1,0.3,1)';
+        word.appendChild(span);
+        globalIndex++;
+      });
+    });
+  }
+
+  var loaderMarkSpans = document.querySelectorAll('.loader__mark span');
+  loaderMarkSpans.forEach(function (s, i) {
+    s.style.transitionDelay = (i * 0.09) + 's';
+    s.style.transitionProperty = 'opacity, transform, filter';
+    s.style.transitionDuration = '0.7s';
+    s.style.transitionTimingFunction = 'cubic-bezier(0.16,1,0.3,1)';
+    setTimeout(function () {
+      s.style.opacity = 1;
+      s.style.filter = 'blur(0)';
+      s.style.transform = 'translateY(0)';
+    }, 60);
+  });
+
+  function playHeroIntro() {
+    var chars = heroTitle ? heroTitle.querySelectorAll('.char') : [];
+    requestAnimationFrame(function () {
+      chars.forEach(function (c) {
+        c.style.opacity = 1;
+        c.style.filter = 'blur(0)';
+        c.style.transform = 'translateY(0) rotate(0)';
+      });
+    });
+    var seq = [
+      { el: document.getElementById('heroBadge'), delay: 80 },
+      { el: document.getElementById('heroSub'), delay: 560 },
+      { el: document.getElementById('heroActions'), delay: 680 },
+      { el: document.getElementById('heroProof'), delay: 800 }
+    ];
+    seq.forEach(function (item) {
+      if (!item.el) return;
+      setTimeout(function () {
+        item.el.style.transition = 'opacity 0.9s cubic-bezier(0.16,1,0.3,1), transform 0.9s cubic-bezier(0.16,1,0.3,1)';
+        item.el.style.opacity = 1;
+        item.el.style.transform = 'translateY(0)';
+      }, item.delay);
+    });
+    var scrollEl = document.querySelector('.hero__scroll');
+    if (scrollEl) {
+      setTimeout(function () {
+        scrollEl.style.transition = 'opacity 0.8s ease';
+        scrollEl.style.opacity = 1;
+      }, 900);
+    }
+  }
+
+  /* ---------- Scroll progress + nav state ---------- */
+  var scrollProgress = document.getElementById('scrollProgress');
+  var nav = document.getElementById('nav');
+  function onScroll() {
+    var scrollTop = window.scrollY || document.documentElement.scrollTop;
+    var docHeight = document.documentElement.scrollHeight - window.innerHeight;
+    var pctScroll = docHeight > 0 ? (scrollTop / docHeight) * 100 : 0;
+    if (scrollProgress) scrollProgress.style.width = pctScroll + '%';
+    if (nav) {
+      if (scrollTop > 40) nav.classList.add('is-scrolled');
+      else nav.classList.remove('is-scrolled');
+    }
+    revealCheck();
+    updateProcessFill();
+  }
+  window.addEventListener('scroll', onScroll, { passive: true });
+
+  /* ---------- Mobile menu ---------- */
+  var burger = document.getElementById('navBurger');
+  var mobileMenu = document.getElementById('mobileMenu');
+  if (burger && mobileMenu) {
+    burger.addEventListener('click', function () {
+      nav.classList.toggle('menu-open');
+      mobileMenu.classList.toggle('is-open');
+    });
+    mobileMenu.querySelectorAll('a').forEach(function (a) {
+      a.addEventListener('click', function () {
+        nav.classList.remove('menu-open');
+        mobileMenu.classList.remove('is-open');
+      });
+    });
+  }
+
+  /* ---------- Custom cursor ---------- */
+  var cursorDot = document.getElementById('cursorDot');
+  var cursorRing = document.getElementById('cursorRing');
+  var glowFollower = document.getElementById('glowFollower');
+  var cursorRingText = document.getElementById('cursorRingText');
+  var hasPointer = window.matchMedia('(pointer: fine)').matches;
+
+  if (hasPointer && cursorDot && cursorRing) {
+    var mouseX = 0, mouseY = 0, ringX = 0, ringY = 0, glowX = 0, glowY = 0;
+    document.addEventListener('mousemove', function (e) {
+      mouseX = e.clientX; mouseY = e.clientY;
+      cursorDot.style.transform = 'translate(' + mouseX + 'px,' + mouseY + 'px) translate(-50%,-50%)';
+      glowFollower && glowFollower.classList.add('is-active');
+    });
+    function animateCursor() {
+      ringX += (mouseX - ringX) * 0.18;
+      ringY += (mouseY - ringY) * 0.18;
+      cursorRing.style.transform = 'translate(' + ringX + 'px,' + ringY + 'px) translate(-50%,-50%)';
+      glowX += (mouseX - glowX) * 0.08;
+      glowY += (mouseY - glowY) * 0.08;
+      if (glowFollower) glowFollower.style.transform = 'translate(' + glowX + 'px,' + glowY + 'px)';
+      requestAnimationFrame(animateCursor);
+    }
+    animateCursor();
+
+    document.querySelectorAll('.work-item').forEach(function (item) {
+      item.addEventListener('mouseenter', function () {
+        cursorRing.classList.add('is-view');
+        cursorRingText.textContent = 'İncele';
+      });
+      item.addEventListener('mouseleave', function () { cursorRing.classList.remove('is-view'); });
+    });
+    document.querySelectorAll('a, button, .magnetic').forEach(function (item) {
+      if (item.closest('.work-item')) return;
+      item.addEventListener('mouseenter', function () { cursorRing.classList.add('is-link'); });
+      item.addEventListener('mouseleave', function () { cursorRing.classList.remove('is-link'); });
+    });
+    document.addEventListener('mouseleave', function () {
+      cursorDot.classList.add('is-hidden');
+      cursorRing.classList.add('is-hidden');
+    });
+    document.addEventListener('mouseenter', function () {
+      cursorDot.classList.remove('is-hidden');
+      cursorRing.classList.remove('is-hidden');
+    });
+  }
+
+  /* ---------- Magnetic buttons ---------- */
+  if (hasPointer) {
+    document.querySelectorAll('.magnetic').forEach(function (btn) {
+      btn.addEventListener('mousemove', function (e) {
+        var rect = btn.getBoundingClientRect();
+        var x = e.clientX - rect.left - rect.width / 2;
+        var y = e.clientY - rect.top - rect.height / 2;
+        btn.style.transform = 'translate(' + (x * 0.18) + 'px,' + (y * 0.3) + 'px)';
+      });
+      btn.addEventListener('mouseleave', function () {
+        btn.style.transform = 'translate(0,0)';
+        btn.style.transition = 'transform 0.5s cubic-bezier(0.16,1,0.3,1)';
+        setTimeout(function () { btn.style.transition = ''; }, 500);
+      });
+    });
+  }
+
+  /* ---------- Parallax hero orbs/shapes ---------- */
+  if (hasPointer) {
+    var depthEls = document.querySelectorAll('[data-depth]');
+    document.querySelector('.hero') && document.querySelector('.hero').addEventListener('mousemove', function (e) {
+      var cx = window.innerWidth / 2, cy = window.innerHeight / 2;
+      var dx = e.clientX - cx, dy = e.clientY - cy;
+      depthEls.forEach(function (el) {
+        var depth = parseFloat(el.getAttribute('data-depth')) || 0.03;
+        el.style.transform = 'translate(' + (dx * depth) + 'px,' + (dy * depth) + 'px)';
+      });
+    });
+  }
+
+  /* ---------- Scroll reveal ---------- */
+  var revealEls = Array.prototype.slice.call(document.querySelectorAll('[data-reveal], [data-reveal-scale]'));
+  function revealCheck() {
+    var vh = window.innerHeight;
+    revealEls.forEach(function (el) {
+      if (el.classList.contains('is-in')) return;
+      var rect = el.getBoundingClientRect();
+      if (rect.top < vh * 0.9 && rect.bottom > 0) {
+        el.classList.add('is-in');
+        if (el.classList.contains('about__stats') || el.querySelector('.counter')) startCounters(el);
+        if (el.classList.contains('why__grid') || el.contains(document.querySelector('.compare-table'))) animateCtIcons();
+      }
+    });
+  }
+
+  /* ---------- Counters ---------- */
+  var countersStarted = new WeakSet();
+  function startCounters(scopeEl) {
+    var counters = scopeEl.querySelectorAll ? scopeEl.querySelectorAll('.counter') : [];
+    counters.forEach(function (counter) {
+      if (countersStarted.has(counter)) return;
+      countersStarted.add(counter);
+      var target = parseInt(counter.getAttribute('data-target'), 10) || 0;
+      var duration = 1800;
+      var startTime = null;
+      function step(ts) {
+        if (!startTime) startTime = ts;
+        var progress = Math.min((ts - startTime) / duration, 1);
+        var eased = 1 - Math.pow(1 - progress, 3);
+        counter.textContent = Math.floor(eased * target);
+        if (progress < 1) requestAnimationFrame(step);
+        else counter.textContent = target;
+      }
+      requestAnimationFrame(step);
+    });
+  }
+  /* also catch stat blocks not wrapped with data-reveal parent directly */
+  document.querySelectorAll('.stat').forEach(function (statEl) {
+    if (!statEl.hasAttribute('data-reveal')) return;
+  });
+
+  /* ---------- Compare-table check icons ---------- */
+  var ctAnimated = false;
+  function animateCtIcons() {
+    if (ctAnimated) return;
+    ctAnimated = true;
+    document.querySelectorAll('.ct-icon.yes').forEach(function (icon, i) {
+      setTimeout(function () { icon.classList.add('is-in'); }, i * 90);
+    });
+  }
+
+  /* ---------- Process spine fill on scroll ---------- */
+  var processSteps = document.querySelectorAll('.process-step');
+  var processFill = document.getElementById('processFill');
+  var processRow = document.getElementById('processRow');
+  function updateProcessFill() {
+    if (!processRow || !processFill) return;
+    var rect = processRow.getBoundingClientRect();
+    var vh = window.innerHeight;
+    var start = vh * 0.85;
+    var total = rect.height + vh * 0.5;
+    var progressed = start - rect.top;
+    var ratio = Math.max(0, Math.min(1, progressed / total));
+    processFill.style.width = (ratio * 100) + '%';
+    var activeCount = Math.round(ratio * processSteps.length);
+    processSteps.forEach(function (step, i) {
+      if (i < activeCount) step.classList.add('is-active');
+      else step.classList.remove('is-active');
+    });
+  }
+
+  /* ---------- Portfolio filter ---------- */
+  var filterButtons = document.querySelectorAll('.work__filters button');
+  var workItems = document.querySelectorAll('.work-item');
+  filterButtons.forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      filterButtons.forEach(function (b) { b.classList.remove('is-active'); });
+      btn.classList.add('is-active');
+      var filter = btn.getAttribute('data-filter');
+      workItems.forEach(function (item) {
+        var cat = item.getAttribute('data-category');
+        if (filter === 'all' || cat === filter) item.classList.remove('is-hidden-filter');
+        else item.classList.add('is-hidden-filter');
+      });
+    });
+  });
+
+  /* ---------- Portfolio modal ---------- */
+  var workModal = document.getElementById('workModal');
+  var workModalVisual = document.getElementById('workModalVisual');
+  var workModalCat = document.getElementById('workModalCat');
+  var workModalTitle = document.getElementById('workModalTitle');
+  var workModalDesc = document.getElementById('workModalDesc');
+  var workModalClose = document.getElementById('workModalClose');
+
+  workItems.forEach(function (item) {
+    item.addEventListener('click', function () {
+      var img = item.getAttribute('data-img');
+      var bgStyle = item.querySelector('.work-item__bg').getAttribute('style');
+      if (img) {
+        workModalVisual.style.backgroundImage = 'url(' + img + ')';
+      } else if (bgStyle) {
+        workModalVisual.style.backgroundImage = 'none';
+        workModalVisual.style.background = bgStyle.replace('background:', '');
+      }
+      workModalCat.textContent = item.getAttribute('data-cat-label') || '';
+      workModalTitle.textContent = item.getAttribute('data-title') || '';
+      workModalDesc.textContent = item.getAttribute('data-desc') || '';
+      workModal.classList.add('is-open');
+      document.body.style.overflow = 'hidden';
+    });
+  });
+  function closeWorkModal() {
+    workModal.classList.remove('is-open');
+    document.body.style.overflow = '';
+  }
+  workModalClose && workModalClose.addEventListener('click', closeWorkModal);
+  workModal && workModal.addEventListener('click', function (e) {
+    if (e.target === workModal) closeWorkModal();
+  });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') closeWorkModal();
+  });
+
+  /* ---------- Before/After compare slider ---------- */
+  var compareRange = document.getElementById('compareRange');
+  var compareAfter = document.getElementById('compareAfter');
+  var compareHandle = document.getElementById('compareHandle');
+  function setCompare(val) {
+    compareAfter.style.clipPath = 'inset(0 0 0 ' + val + '%)';
+    compareHandle.style.left = val + '%';
+  }
+  if (compareRange) {
+    compareRange.addEventListener('input', function () { setCompare(compareRange.value); });
+    setCompare(compareRange.value);
+  }
+
+  /* ---------- Testimonials carousel ---------- */
+  var tTrack = document.getElementById('tTrack');
+  var tPrev = document.getElementById('tPrev');
+  var tNext = document.getElementById('tNext');
+  var tDotsWrap = document.getElementById('tDots');
+  var tCards = tTrack ? tTrack.querySelectorAll('.t-card') : [];
+  if (tDotsWrap) {
+    tCards.forEach(function (_, i) {
+      var dot = document.createElement('span');
+      if (i === 0) dot.classList.add('is-active');
+      dot.addEventListener('click', function () { scrollToCard(i); });
+      tDotsWrap.appendChild(dot);
+    });
+  }
+  function scrollToCard(i) {
+    var card = tCards[i];
+    if (!card || !tTrack) return;
+    tTrack.scrollTo({ left: card.offsetLeft - tTrack.offsetLeft, behavior: 'smooth' });
+  }
+  var currentT = 0;
+  tNext && tNext.addEventListener('click', function () {
+    currentT = (currentT + 1) % tCards.length;
+    scrollToCard(currentT);
+  });
+  tPrev && tPrev.addEventListener('click', function () {
+    currentT = (currentT - 1 + tCards.length) % tCards.length;
+    scrollToCard(currentT);
+  });
+  if (tTrack) {
+    tTrack.addEventListener('scroll', function () {
+      var scrollLeft = tTrack.scrollLeft;
+      var closest = 0, min = Infinity;
+      tCards.forEach(function (card, i) {
+        var diff = Math.abs(card.offsetLeft - tTrack.offsetLeft - scrollLeft);
+        if (diff < min) { min = diff; closest = i; }
+      });
+      currentT = closest;
+      if (tDotsWrap) {
+        tDotsWrap.querySelectorAll('span').forEach(function (dot, i) {
+          dot.classList.toggle('is-active', i === closest);
+        });
+      }
+    }, { passive: true });
+  }
+
+  /* ---------- FAQ accordion ---------- */
+  document.querySelectorAll('.faq-item').forEach(function (item) {
+    var q = item.querySelector('.faq-item__q');
+    var a = item.querySelector('.faq-item__a');
+    if (item.classList.contains('is-open')) {
+      a.style.maxHeight = a.scrollHeight + 'px';
+    }
+    q.addEventListener('click', function () {
+      var isOpen = item.classList.contains('is-open');
+      document.querySelectorAll('.faq-item').forEach(function (other) {
+        other.classList.remove('is-open');
+        other.querySelector('.faq-item__a').style.maxHeight = null;
+      });
+      if (!isOpen) {
+        item.classList.add('is-open');
+        a.style.maxHeight = a.scrollHeight + 'px';
+      }
+    });
+  });
+
+  /* ---------- Contact form validation ---------- */
+  var contactForm = document.getElementById('contactForm');
+  var formSuccess = document.getElementById('formSuccess');
+  if (contactForm) {
+    contactForm.querySelectorAll('input, textarea').forEach(function (input) {
+      input.addEventListener('input', function () {
+        if (input.value.trim() !== '') input.closest('.field').classList.add('has-value');
+        else input.closest('.field').classList.remove('has-value');
+      });
+    });
+    contactForm.addEventListener('submit', function (e) {
+      e.preventDefault();
+      var valid = true;
+      var name = document.getElementById('fName');
+      var email = document.getElementById('fEmail');
+      var message = document.getElementById('fMessage');
+
+      [name, message].forEach(function (field) {
+        var wrap = field.closest('.field');
+        if (field.value.trim() === '') { wrap.classList.add('is-invalid'); valid = false; }
+        else wrap.classList.remove('is-invalid');
+      });
+      var emailWrap = email.closest('.field');
+      var emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      if (!emailPattern.test(email.value.trim())) { emailWrap.classList.add('is-invalid'); valid = false; }
+      else emailWrap.classList.remove('is-invalid');
+
+      if (valid) {
+        formSuccess.classList.add('is-shown');
+        contactForm.reset();
+        contactForm.querySelectorAll('.field').forEach(function (f) { f.classList.remove('has-value'); });
+        setTimeout(function () { formSuccess.classList.remove('is-shown'); }, 6000);
+      }
+    });
+  }
+
+  /* ---------- Select label handling ---------- */
+  document.querySelectorAll('.field select').forEach(function (select) {
+    select.addEventListener('change', function () {
+      if (select.value !== '') select.closest('.field').classList.add('has-value');
+      else select.closest('.field').classList.remove('has-value');
+    });
+  });
+
+  /* Initial checks */
+  onScroll();
+});
+</script>
+
+</body>
+</html>
